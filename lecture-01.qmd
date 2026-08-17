@@ -1,0 +1,36 @@
+---
+title: "Lecture 1: Introduction"
+subtitle: "Week 1"
+author: "Your Name"
+date: last-modified
+---
+
+## Overview
+
+Welcome to the course. This page is written once in Quarto Markdown and
+published as a web page. PDF and Word versions are generated automatically and
+appear as download links (look for **Other Formats** in the page margin).
+
+## Learning objectives
+
+- State the goals of the course
+- Describe how the materials are organized
+- Locate the syllabus and schedule
+
+## Content
+
+Write your lecture here using Markdown. You can use:
+
+- **Bold** and *italic* text
+- Bulleted and numbered lists
+- Images: `![A caption](images/diagram.png)`
+- Tables, footnotes, citations
+- Math, inline like $E = mc^2$ or displayed:
+
+$$
+\int_{a}^{b} f(x)\,dx = F(b) - F(a)
+$$
+
+## Summary
+
+A short recap of the key points goes here.

@@ -1,0 +1,9 @@
+/.quarto/
+/_site/
+*.aux
+*.log
+*.out
+*.toc
+.DS_Store
+Thumbs.db
+**/*.quarto_ipynb
