@@ -9,7 +9,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: FANR3800_Week01_Lecture.md
+      - href: Week01_Lecture.md
         text: "Lecture 1"
 
 # Declaring three formats at the project level means every page is rendered
