@@ -9,8 +9,6 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: lecture-01.qmd
-        text: "Lecture 1 old"
       - href: FANR3800_Week01_Lecture.md
         text: "Lecture 1"
 
