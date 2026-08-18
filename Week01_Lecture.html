@@ -160,21 +160,21 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="week-1---all-things-have-a-spatial-component" class="level1">
 <h1>Week 1 - All Things Have a Spatial Component?</h1>
-<p><strong>Arc A: Build a base you can trust.</strong> Two 50-minute lectures (Mon &amp; Wed). Week 1 sets the intellectual frame for the whole semester and plants the vocabulary (spatial data, the two data models) that every later arc reuses. It is also the setup week, so protect a few minutes for the ESRI environment.</p>
+<p><strong>Arc A: Build a base you can trust.</strong> Two 50-minute lectures (Mon &amp; Wed). Week 1 frames the whole semester and introduces the vocabulary (spatial data, the two data models) that every later arc reuses. Focus is on establishing the ESRI environment.</p>
 <p><em>Notation: ArcGIS Pro tools appear as <code>ALL-CAPS</code>; methods and concepts as </em>Proper-Case italics<em>.</em></p>
 <hr>
 <section id="monday-what-gis-is-and-why-your-problems-are-spatial" class="level2">
 <h2 class="anchored" data-anchor-id="monday-what-gis-is-and-why-your-problems-are-spatial">Monday: What GIS Is, and Why Your Problems Are Spatial</h2>
-<p><strong>Learning objectives.</strong> Students can (1) state what GIS is as an analytical framework rather than a program, (2) give an example from their own discipline where a management question is really a spatial question, and (3) describe how the course’s five arcs move from data to decision.</p>
+<p><strong>Learning objectives.</strong> Students can (1) state what GIS is as an analytical framework rather than a program, (2) give an example from their own discipline where a management question is really a spatial question, and (3) log into the ESRI Training environment and begin assigned training modules.</p>
 <p><strong>Session outline (~50 min).</strong></p>
 <ul>
-<li><em>(0–10) The hook.</em> Open with a management question from each Warnell track, “Which stands should we thin?” (silviculture), “Where is the deer herd concentrating?” (wildlife), “Which reaches need streamside protection?” (fisheries), “Where are trails eroding?” (parks). Draw out that each contains a hidden <em>where</em>.</li>
-<li><em>(10–25) What GIS actually is.</em> Data + software + methods + people for asking and answering spatial questions. Distinguish the <em>analytical framework</em> from the <em>software</em>; ArcGIS Pro is one tool for a way of thinking.</li>
-<li><em>(25–40) The course as a story.</em> Walk the five arcs at one sentence each: build a trustworthy base (A) → ask questions of data (B) → decide where things go, vector (C) → model conditions that vary, raster (D) → combine everything (E). Emphasize that tools serve questions, not the reverse.</li>
+<li><em>(0–10) <strong>Where is the where?</strong></em> “Which stands should we thin?” (silviculture), “Where is the deer herd concentrating?” (wildlife), “Which reaches need streamside protection?” (fisheries), “Where are trails eroding?” (parks).</li>
+<li><em>(10–25) What GIS actually is.</em> Data + software + hardware + methods + people for asking and answering spatial questions. “Spatial thinking” is the <em>analytical framework</em> and ArcGIS Pro is the <em>software</em> in which we apply those spatial thoughts.</li>
+<li><em>(25–40) Five FANR3800 arcs (topics)</em> build a trustworthy base (A) → ask questions of data (B) → decide where things go, vector (C) → model conditions that vary, raster (D) → combine everything (E).</li>
 <li><em>(40–50) Logistics.</em> Syllabus highlights, the lecture/lab rhythm, the weekly ESRI-module expectation, and how notes/handwritten work fit in. Assign the Week 2 ESRI module and the account setup.</li>
 </ul>
-<p><strong>Framing to emphasize.</strong> “Every natural resource decision has a spatial component.” Return to this sentence all semester.</p>
-<p><em>Tools introduced:</em> none, project creation and interface navigation only. <em>Methods/concepts introduced:</em> <em>Spatial Thinking</em>.</p>
+<p><strong>Framing to emphasize.</strong> “Every natural resource decision has a spatial component.”</p>
+<p><em>Methods/concepts introduced:</em> <em>Spatial Thinking</em>.</p>
 <hr>
 </section>
 <section id="wednesday-how-we-represent-the-world-the-two-data-models" class="level2">
@@ -182,14 +182,13 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Learning objectives.</strong> Students can (1) distinguish discrete features from continuous phenomena, (2) name the vector geometry types and the raster grid concept, and (3) predict which model fits a given natural resource dataset.</p>
 <p><strong>Session outline (~50 min).</strong></p>
 <ul>
-<li><em>(0–5) Setup check.</em> Confirm ESRI accounts and ArcGIS Pro access; note who needs the GIS lab. Flag that unresolved access must be fixed before Week 2.</li>
+<li><em>(0–5) Setup check.</em> Confirm ESRI accounts and ArcGIS Pro access; note who needs the GIS lab.</li>
 <li><em>(5–25) The </em>Vector Data Model<em>.</em> Points, lines, polygons, each carrying an attribute table (one row per feature). Natural resource examples: sample plots and nests (points); streams, roads, boundaries (lines); stands, compartments, watersheds (polygons). Strengths (discrete features, attribute richness, precise edges) and limits (poor for gradients).</li>
-<li><em>(25–40) The </em>Raster Data Model<em>.</em> A regular grid of cells, one value each; cell size = <em>Spatial Resolution</em>; integer (categories) vs.&nbsp;floating-point (continuous) vs.&nbsp;multiband (imagery). Examples: elevation, temperature, land cover, satellite bands. Strengths (continuous phenomena, fast math across large areas) and limits (jagged boundaries, one value per cell).</li>
-<li><em>(40–50) Choosing a model.</em> Discrete-with-hard-edges → vector; gradient or many-factor surface → raster; most real problems → both. Preview that Arcs A–C live mostly in vector and Arc D introduces raster in earnest.</li>
+<li><em>(25–40) The </em>Raster Data Model<em>.</em> A regular grid of cells, one value each; cell size implies spatial resolution; integer (categories) vs.&nbsp;floating-point (continuous) vs.&nbsp;multiband (imagery). Examples: elevation, temperature, land cover, satellite bands. Strengths (continuous phenomena, fast math across large areas) and limits (imprecise boundaries, one value per cell).</li>
+<li><em>(40–50) Choosing a model.</em> Discrete-with-hard-edges → vector; gradient or many-factor surface → raster; most real problems → both.</li>
 </ul>
-<p><strong>Framing to emphasize.</strong> The model you choose is a modeling <em>decision</em> with consequences, not a technical default. Plant the vector↔︎raster parallel now so it pays off in Arc D.</p>
-<p><strong>Connections.</strong> Vocabulary here underpins every week; the vector/raster choice returns explicitly in Weeks 9–12.</p>
-<p><em>Tools introduced:</em> none, interface navigation only. <em>Methods/concepts introduced:</em> <em>Vector Data Model</em>, <em>Raster Data Model</em>, <em>Spatial Resolution</em>.</p>
+<p><strong>Framing to emphasize.</strong> The model you choose is a modeling <em>decision</em> with consequences, not a technical default. <strong>Connections.</strong> Vocabulary here underpins every week; the vector/raster choice returns explicitly in Weeks 9–12.</p>
+<p><em>Tools introduced:</em> none, interface navigation only. <em>Methods/concepts introduced:</em> Vector Data Model, Raster Data Model, Spatial Resolution.</p>
 
 
 </section>

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>FANR 3800 Lectures – Course Lectures</title>
+<title>FANR 3800: Week 2 Student Notes – Course Lectures</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,8 +36,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -75,65 +73,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-lecture-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-lecture-listing'] = new List('listing-lecture-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -155,7 +95,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
 </ul>
@@ -170,14 +110,39 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="index.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="index.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#week-2---telling-the-spatial-story" id="toc-week-2---telling-the-spatial-story" class="nav-link active" data-scroll-target="#week-2---telling-the-spatial-story">Week 2 - Telling the Spatial Story</a>
+  <ul class="collapse">
+  <li><a href="#how-to-use-this-sheet-two-pass-notes" id="toc-how-to-use-this-sheet-two-pass-notes" class="nav-link" data-scroll-target="#how-to-use-this-sheet-two-pass-notes">How to Use This Sheet: Two-Pass Notes</a></li>
+  <li><a href="#this-week-10-min" id="toc-this-week-10-min" class="nav-link" data-scroll-target="#this-week-10-min">1 · This Week <em>(10 min)</em></a></li>
+  <li><a href="#lab-review-last-weeks-setup-10-min" id="toc-lab-review-last-weeks-setup-10-min" class="nav-link" data-scroll-target="#lab-review-last-weeks-setup-10-min">2 · Lab Review: Last Week’s Setup <em>(10 min)</em></a></li>
+  <li><a href="#the-week-ahead-5-min" id="toc-the-week-ahead-5-min" class="nav-link" data-scroll-target="#the-week-ahead-5-min">3 · The Week Ahead <em>(5 min)</em></a></li>
+  <li><a href="#application-discussion-10-min-may-vary-instructors-call" id="toc-application-discussion-10-min-may-vary-instructors-call" class="nav-link" data-scroll-target="#application-discussion-10-min-may-vary-instructors-call">4 · Application Discussion <em>(10 min)</em> <em>(may vary; instructor’s call)</em></a></li>
+  <li><a href="#lecture-symbology-making-attributes-visible-15-min" id="toc-lecture-symbology-making-attributes-visible-15-min" class="nav-link" data-scroll-target="#lecture-symbology-making-attributes-visible-15-min">5 · Lecture: <em>Symbology</em>, Making Attributes Visible <em>(15 min)</em></a></li>
+  <li><a href="#after-class-add-detail" id="toc-after-class-add-detail" class="nav-link" data-scroll-target="#after-class-add-detail">After Class: Add Detail</a></li>
+  </ul></li>
+  <li><a href="#wednesday" id="toc-wednesday" class="nav-link" data-scroll-target="#wednesday">WEDNESDAY</a>
+  <ul class="collapse">
+  <li><a href="#lecture-map-layout-the-anatomy-of-a-credible-map-20-min" id="toc-lecture-map-layout-the-anatomy-of-a-credible-map-20-min" class="nav-link" data-scroll-target="#lecture-map-layout-the-anatomy-of-a-credible-map-20-min">1 · Lecture: <em>Map Layout</em>, the Anatomy of a Credible Map <em>(20 min)</em></a></li>
+  <li><a href="#pre-lab-review-why-this-weeks-lab-matters-10-min" id="toc-pre-lab-review-why-this-weeks-lab-matters-10-min" class="nav-link" data-scroll-target="#pre-lab-review-why-this-weeks-lab-matters-10-min">2 · Pre-lab Review: Why This Week’s Lab Matters <em>(10 min)</em></a></li>
+  <li><a href="#pre-lab-review-methods-tools-10-min" id="toc-pre-lab-review-methods-tools-10-min" class="nav-link" data-scroll-target="#pre-lab-review-methods-tools-10-min">3 · Pre-lab Review: Methods &amp; Tools <em>(10 min)</em></a></li>
+  <li><a href="#week-summary-10-min" id="toc-week-summary-10-min" class="nav-link" data-scroll-target="#week-summary-10-min">4 · Week Summary <em>(10 min)</em></a></li>
+  <li><a href="#after-class-add-detail-1" id="toc-after-class-add-detail-1" class="nav-link" data-scroll-target="#after-class-add-detail-1">After Class: Add Detail</a></li>
+  <li><a href="#evening-review-checklist-second-pass" id="toc-evening-review-checklist-second-pass" class="nav-link" data-scroll-target="#evening-review-checklist-second-pass">Evening Review Checklist (Second Pass)</a></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Week02_Student_Notes.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="Week02_Student_Notes.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">FANR 3800 Lectures</h1>
+<h1 class="title">FANR 3800: Week 2 Student Notes</h1>
+<p class="subtitle lead">Spatial Analysis for Natural Resources · Fall 2026</p>
 </div>
 
 
@@ -185,6 +150,12 @@ window.Quarto = {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">Invalid Date</p>
+    </div>
+  </div>
   
     
   </div>
@@ -194,57 +165,140 @@ window.Quarto = {
 </header>
 
 
-<p>Welcome to FANR 3800. Select a lecture to open it — each page includes PDF and Word download links in the margin.</p>
-<div id="listing-lecture-listing" class="quarto-listing quarto-listing-container-table">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<section id="week-2---telling-the-spatial-story" class="level1">
+<h1>Week 2 - Telling the Spatial Story</h1>
+<p><strong>Name: ______________________________ Date: ____________</strong></p>
+<section id="how-to-use-this-sheet-two-pass-notes" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-use-this-sheet-two-pass-notes">How to Use This Sheet: Two-Pass Notes</h2>
+<p>In class, capture the key idea under each prompt in your own words: a phrase or a sentence, not everything. That evening, reread your notes and use the “After class: add detail” box at the bottom of each page to add detail from the assigned ESRI Training exercise and the eLC links. Need more room? Use your own paper.</p>
+</section>
+<section id="this-week-10-min" class="level2">
+<h2 class="anchored" data-anchor-id="this-week-10-min">1 · This Week <em>(10 min)</em></h2>
+<p>Weekly schedule, ESRI Training, deliverables, and due dates.</p>
+<p>________________________________________</p>
+<p>________________________________________</p>
+</section>
+<section id="lab-review-last-weeks-setup-10-min" class="level2">
+<h2 class="anchored" data-anchor-id="lab-review-last-weeks-setup-10-min">2 · Lab Review: Last Week’s Setup <em>(10 min)</em></h2>
+<p>What did getting ArcGIS Pro set up show me about the project and interface? Anything still not working?</p>
+<p>________________________________________</p>
+<p>Why does having professional GIS software matter for someone in my discipline?</p>
+<p>________________________________________</p>
+</section>
+<section id="the-week-ahead-5-min" class="level2">
+<h2 class="anchored" data-anchor-id="the-week-ahead-5-min">3 · The Week Ahead <em>(5 min)</em></h2>
+<p>New ideas this week: <em>Symbology</em> (how we show features) and <em>Map Layout</em> (what makes a map credible).</p>
+<p>________________________________________</p>
+<p>________________________________________</p>
+</section>
+<section id="application-discussion-10-min-may-vary-instructors-call" class="level2">
+<h2 class="anchored" data-anchor-id="application-discussion-10-min-may-vary-instructors-call">4 · Application Discussion <em>(10 min)</em> <em>(may vary; instructor’s call)</em></h2>
+<p>Read the prompt for <strong>your</strong> focus and jot a response; be ready to share.</p>
+<ul>
+<li><strong>Forestry/Forest Management:</strong> A forester maps timber stand types for a landowner. How does the choice of <em>Symbology</em> (colors, patterns) affect a non-GIS-savvy landowner’s understanding?</li>
+<li><strong>Wildlife Management:</strong> Mapping critical red-cockaded woodpecker habitat in a national forest, which essential map elements would you prioritize so managers can interpret it quickly?</li>
+<li><strong>Fisheries Management:</strong> Mapping fish sampling locations in a reservoir, how can map design distinguish species caught or water-quality values for a non-technical audience?</li>
+<li><strong>Parks Recreation &amp; Tourism Management:</strong> How would a visitor map’s purpose (guidance) change your design choices compared with an internal maintenance map?</li>
+</ul>
+<p>________________________________________</p>
+<p>________________________________________</p>
+<p>________________________________________</p>
+<p>________________________________________</p>
+</section>
+<section id="lecture-symbology-making-attributes-visible-15-min" class="level2">
+<h2 class="anchored" data-anchor-id="lecture-symbology-making-attributes-visible-15-min">5 · Lecture: <em>Symbology</em>, Making Attributes Visible <em>(15 min)</em></h2>
+<ul>
+<li>Symbology is <em>analysis</em>, not decoration: the same data with different symbols can tell different stories.</li>
+</ul>
+<p>________________________________________</p>
+<ul>
+<li>The main methods: <em>Single Symbol</em>; <em>Categorized</em> / <em>Unique Values</em> (qualitative, e.g., species, ownership); <em>Graduated</em> (quantitative, e.g., age, basal area) and how class breaks change the message.</li>
+</ul>
+<p>________________________________________</p>
+<p>________________________________________</p>
+<ul>
+<li>Choosing well: color for categories vs.&nbsp;sequences; how many classes; why raw counts can mislead (normalize instead).</li>
+</ul>
+<p>________________________________________</p>
+<p><strong>Key terms:</strong> <em>Symbology</em> · <em>Categorized</em> · <em>Graduated</em> · <em>Unique Values</em> · class breaks</p>
+</section>
+<section id="after-class-add-detail" class="level2">
+<h2 class="anchored" data-anchor-id="after-class-add-detail">After Class: Add Detail</h2>
+<blockquote class="blockquote">
+<p>From the assigned ESRI Training exercise and the eLC links, add which symbology method best fits a dataset in <em>your</em> field, and why.</p>
+</blockquote>
+<p>________________________________________</p>
+<p>________________________________________</p>
+<div style="page-break-after: always;">
+
 </div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
+</section>
+</section>
+<section id="wednesday" class="level1">
+<h1>WEDNESDAY</h1>
+<section id="lecture-map-layout-the-anatomy-of-a-credible-map-20-min" class="level2">
+<h2 class="anchored" data-anchor-id="lecture-map-layout-the-anatomy-of-a-credible-map-20-min">1 · Lecture: <em>Map Layout</em>, the Anatomy of a Credible Map <em>(20 min)</em></h2>
+<ul>
+<li>The essential elements (title, legend, scale bar, north arrow, and data source plus coordinate-system metadata), and what a <em>missing</em> element costs the reader’s trust.</li>
+</ul>
+<p>________________________________________</p>
+<p>________________________________________</p>
+<ul>
+<li>Composition and visual hierarchy: guiding the eye; a map for a report page vs.&nbsp;a map for a wall.</li>
+</ul>
+<p>________________________________________</p>
+<ul>
+<li>Credibility and honesty: how framing, extent, and class breaks can distort; cite sources; show uncertainty.</li>
+</ul>
+<p>________________________________________</p>
+<ul>
+<li>Export and delivery: <code>EXPORT LAYOUT</code>; format and resolution for print vs.&nbsp;screen; consistent file naming.</li>
+</ul>
+<p>________________________________________</p>
+<p><strong>Key terms:</strong> legend · scale bar · north arrow · metadata · visual hierarchy · <code>EXPORT LAYOUT</code></p>
+</section>
+<section id="pre-lab-review-why-this-weeks-lab-matters-10-min" class="level2">
+<h2 class="anchored" data-anchor-id="pre-lab-review-why-this-weeks-lab-matters-10-min">2 · Pre-lab Review: Why This Week’s Lab Matters <em>(10 min)</em></h2>
+<p>This week’s lab has you build and symbolize a map. Why is a clear, credible map a professional deliverable in my field?</p>
+<p>________________________________________</p>
+<p>________________________________________</p>
+</section>
+<section id="pre-lab-review-methods-tools-10-min" class="level2">
+<h2 class="anchored" data-anchor-id="pre-lab-review-methods-tools-10-min">3 · Pre-lab Review: Methods &amp; Tools <em>(10 min)</em></h2>
+<p>The tools and steps I will use this afternoon: the <code>SYMBOLOGY</code> pane, the <code>LAYOUT</code> view, and <code>EXPORT LAYOUT</code>.</p>
+<p>________________________________________</p>
+<p>________________________________________</p>
+</section>
+<section id="week-summary-10-min" class="level2">
+<h2 class="anchored" data-anchor-id="week-summary-10-min">4 · Week Summary <em>(10 min)</em></h2>
+<p>In your own words, the one thing to remember from Week 2:</p>
+<p>________________________________________</p>
+<p>________________________________________</p>
+<p>Questions I still have (bring to Monday):</p>
+<p>________________________________________</p>
+<p><strong>Deliverables:</strong> ESRI Training certificate due Wed 8:40 AM; lab document due Sunday 11:59 PM.</p>
+</section>
+<section id="after-class-add-detail-1" class="level2">
+<h2 class="anchored" data-anchor-id="after-class-add-detail-1">After Class: Add Detail</h2>
+<blockquote class="blockquote">
+<p>From the assigned ESRI Training exercise and the eLC links, write the checklist of elements you will put on <em>every</em> map, and add the one you are most likely to forget.</p>
+</blockquote>
+<p>________________________________________</p>
+<p>________________________________________</p>
+</section>
+<section id="evening-review-checklist-second-pass" class="level2">
+<h2 class="anchored" data-anchor-id="evening-review-checklist-second-pass">Evening Review Checklist (Second Pass)</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">Reread my in-class notes within 24 hours</label></li>
+<li><label><input type="checkbox">Added detail from the assigned ESRI Training exercise</label></li>
+<li><label><input type="checkbox">Added detail from the eLC web links</label></li>
+<li><label><input type="checkbox">Wrote my own one-sentence summary of the week</label></li>
+<li><label><input type="checkbox">Listed questions to ask on Monday</label></li>
+</ul>
 
-<th>
-Lecture
-</th>
 
-<th>
-Topic
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-listing-date-sort="NaN" data-listing-file-modified-sort="1787073861713" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="471" data-listing-title-sort="FANR 3800: Week 1 Lecture Plan" data-listing-filename-sort="Week01_Lecture.md">
-<td>
-<a href="./Week01_Lecture.html" class="title listing-title">FANR 3800: Week 1 Lecture Plan</a>
-</td>
-<td>
-<span class="listing-subtitle">Arc A · Why does everything have a spatial component?</span>
-</td>
-
-</tr>
-
-<tr data-index="1" data-listing-date-sort="NaN" data-listing-file-modified-sort="1786733138000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="464" data-listing-title-sort="FANR 3800: Week 2 Lecture Plan" data-listing-filename-sort="Week02_Lecture.md">
-<td>
-<a href="./Week02_Lecture.html" class="title listing-title">FANR 3800: Week 2 Lecture Plan</a>
-</td>
-<td>
-<span class="listing-subtitle">Arc A · Telling the spatial story</span>
-</td>
-
-</tr>
-
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-
-
-
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -1,24 +1,199 @@
 [
   {
-    "objectID": "Week02_Lecture.html",
-    "href": "Week02_Lecture.html",
-    "title": "FANR 3800: Week 2 Lecture Plan",
+    "objectID": "Week02_Student_Notes.html",
+    "href": "Week02_Student_Notes.html",
+    "title": "FANR 3800: Week 2 Student Notes",
     "section": "",
-    "text": "Arc A: Build a base you can trust. Two 50-minute lectures (Mon & Wed). Map communication is taught early, deliberately, so students can present every subsequent analysis credibly. The theme: a map is an argument, and design determines whether the argument is believed.\nNotation: ArcGIS Pro tools appear as ALL-CAPS; methods and concepts as Proper-Case italics.\n\n\n\nLearning objectives. Students can (1) match a Symbology method to a data type, (2) explain how a symbology choice changes the story a map tells, and (3) avoid the common misreadings caused by poor symbol choices.\nSession outline (~50 min).\n\n(0–10) Why symbology is analysis, not decoration. Same data, two symbol schemes, two different conclusions. Set up the responsibility that comes with representation.\n(10–30) The main methods. Single Symbol (location only); Categorized / Unique Values (qualitative classes, species, ownership, cover type); Graduated (quantitative, age, basal area, density) and the effect of classification method and class breaks. Tie each to a data type from Week 1’s attribute tables.\n(30–45) Choosing well. Color for categories vs. sequences; number of classes; when a choropleth misleads (raw counts vs. normalized rates); accessibility of color choices.\n(45–50) Setup for Wednesday. A well-symbolized layer still isn’t a finished map, preview Map Layout.\n\nFraming to emphasize. Landowners and stakeholders act on the map, not the attribute table. Symbology is where the data becomes a decision.\nTools introduced: none, the SYMBOLOGY pane is a ribbon/pane workflow, not a geoprocessing tool. Methods/concepts introduced: Symbology (Categorized, Graduated, Unique Values), Cartographic Communication.\n\n\n\n\nLearning objectives. Students can (1) list the essential map elements and justify each, (2) apply visual hierarchy so the main message reads first, and (3) export a publication-ready map with complete source information.\nSession outline (~50 min).\n\n(0–15) The essential elements. Title, legend, scale bar, north arrow, and, emphasized, data source and coordinate system metadata. Why each exists and what a missing element costs the reader’s trust.\n(15–30) Composition and hierarchy. Guiding the eye: figure-ground, balance, what to enlarge and what to subordinate; the difference between a map made for a report page and one made for a wall.\n(30–42) Credibility and honesty. Scale and audience; how framing, extent, and class breaks can distort; the professional obligation to represent uncertainty and cite sources.\n(42–50) Export and delivery. Formats and resolution for print vs. screen via EXPORT LAYOUT; naming and file organization consistent with the course conventions.\n\nFraming to emphasize. Good design makes the spatial story clear; poor design obscures it and undermines the analyst’s credibility. This is the deliverable skill every arc ends on.\nConnections. Every arc culminates in a map or summary; the elements introduced here are expected on all lab deliverables and exams.\nTools introduced: EXPORT LAYOUT (the LAYOUT view itself is a ribbon/pane workflow). Methods/concepts introduced: Map Layout, Cartographic Communication."
+    "text": "Name: ______________________________ Date: ____________\n\n\nIn class, capture the key idea under each prompt in your own words: a phrase or a sentence, not everything. That evening, reread your notes and use the “After class: add detail” box at the bottom of each page to add detail from the assigned ESRI Training exercise and the eLC links. Need more room? Use your own paper.\n\n\n\nWeekly schedule, ESRI Training, deliverables, and due dates.\n________________________________________\n________________________________________\n\n\n\nWhat did getting ArcGIS Pro set up show me about the project and interface? Anything still not working?\n________________________________________\nWhy does having professional GIS software matter for someone in my discipline?\n________________________________________\n\n\n\nNew ideas this week: Symbology (how we show features) and Map Layout (what makes a map credible).\n________________________________________\n________________________________________\n\n\n\nRead the prompt for your focus and jot a response; be ready to share.\n\nForestry/Forest Management: A forester maps timber stand types for a landowner. How does the choice of Symbology (colors, patterns) affect a non-GIS-savvy landowner’s understanding?\nWildlife Management: Mapping critical red-cockaded woodpecker habitat in a national forest, which essential map elements would you prioritize so managers can interpret it quickly?\nFisheries Management: Mapping fish sampling locations in a reservoir, how can map design distinguish species caught or water-quality values for a non-technical audience?\nParks Recreation & Tourism Management: How would a visitor map’s purpose (guidance) change your design choices compared with an internal maintenance map?\n\n________________________________________\n________________________________________\n________________________________________\n________________________________________\n\n\n\n\nSymbology is analysis, not decoration: the same data with different symbols can tell different stories.\n\n________________________________________\n\nThe main methods: Single Symbol; Categorized / Unique Values (qualitative, e.g., species, ownership); Graduated (quantitative, e.g., age, basal area) and how class breaks change the message.\n\n________________________________________\n________________________________________\n\nChoosing well: color for categories vs. sequences; how many classes; why raw counts can mislead (normalize instead).\n\n________________________________________\nKey terms: Symbology · Categorized · Graduated · Unique Values · class breaks\n\n\n\n\nFrom the assigned ESRI Training exercise and the eLC links, add which symbology method best fits a dataset in your field, and why.\n\n________________________________________\n________________________________________"
   },
   {
-    "objectID": "Week02_Lecture.html#monday-symbology-making-attributes-visible",
-    "href": "Week02_Lecture.html#monday-symbology-making-attributes-visible",
-    "title": "FANR 3800: Week 2 Lecture Plan",
+    "objectID": "Week02_Student_Notes.html#how-to-use-this-sheet-two-pass-notes",
+    "href": "Week02_Student_Notes.html#how-to-use-this-sheet-two-pass-notes",
+    "title": "FANR 3800: Week 2 Student Notes",
     "section": "",
-    "text": "Learning objectives. Students can (1) match a Symbology method to a data type, (2) explain how a symbology choice changes the story a map tells, and (3) avoid the common misreadings caused by poor symbol choices.\nSession outline (~50 min).\n\n(0–10) Why symbology is analysis, not decoration. Same data, two symbol schemes, two different conclusions. Set up the responsibility that comes with representation.\n(10–30) The main methods. Single Symbol (location only); Categorized / Unique Values (qualitative classes, species, ownership, cover type); Graduated (quantitative, age, basal area, density) and the effect of classification method and class breaks. Tie each to a data type from Week 1’s attribute tables.\n(30–45) Choosing well. Color for categories vs. sequences; number of classes; when a choropleth misleads (raw counts vs. normalized rates); accessibility of color choices.\n(45–50) Setup for Wednesday. A well-symbolized layer still isn’t a finished map, preview Map Layout.\n\nFraming to emphasize. Landowners and stakeholders act on the map, not the attribute table. Symbology is where the data becomes a decision.\nTools introduced: none, the SYMBOLOGY pane is a ribbon/pane workflow, not a geoprocessing tool. Methods/concepts introduced: Symbology (Categorized, Graduated, Unique Values), Cartographic Communication."
+    "text": "In class, capture the key idea under each prompt in your own words: a phrase or a sentence, not everything. That evening, reread your notes and use the “After class: add detail” box at the bottom of each page to add detail from the assigned ESRI Training exercise and the eLC links. Need more room? Use your own paper."
   },
   {
-    "objectID": "Week02_Lecture.html#wednesday-map-layout-the-anatomy-of-a-credible-map",
-    "href": "Week02_Lecture.html#wednesday-map-layout-the-anatomy-of-a-credible-map",
-    "title": "FANR 3800: Week 2 Lecture Plan",
+    "objectID": "Week02_Student_Notes.html#this-week-10-min",
+    "href": "Week02_Student_Notes.html#this-week-10-min",
+    "title": "FANR 3800: Week 2 Student Notes",
     "section": "",
-    "text": "Learning objectives. Students can (1) list the essential map elements and justify each, (2) apply visual hierarchy so the main message reads first, and (3) export a publication-ready map with complete source information.\nSession outline (~50 min).\n\n(0–15) The essential elements. Title, legend, scale bar, north arrow, and, emphasized, data source and coordinate system metadata. Why each exists and what a missing element costs the reader’s trust.\n(15–30) Composition and hierarchy. Guiding the eye: figure-ground, balance, what to enlarge and what to subordinate; the difference between a map made for a report page and one made for a wall.\n(30–42) Credibility and honesty. Scale and audience; how framing, extent, and class breaks can distort; the professional obligation to represent uncertainty and cite sources.\n(42–50) Export and delivery. Formats and resolution for print vs. screen via EXPORT LAYOUT; naming and file organization consistent with the course conventions.\n\nFraming to emphasize. Good design makes the spatial story clear; poor design obscures it and undermines the analyst’s credibility. This is the deliverable skill every arc ends on.\nConnections. Every arc culminates in a map or summary; the elements introduced here are expected on all lab deliverables and exams.\nTools introduced: EXPORT LAYOUT (the LAYOUT view itself is a ribbon/pane workflow). Methods/concepts introduced: Map Layout, Cartographic Communication."
+    "text": "Weekly schedule, ESRI Training, deliverables, and due dates.\n________________________________________\n________________________________________"
+  },
+  {
+    "objectID": "Week02_Student_Notes.html#lab-review-last-weeks-setup-10-min",
+    "href": "Week02_Student_Notes.html#lab-review-last-weeks-setup-10-min",
+    "title": "FANR 3800: Week 2 Student Notes",
+    "section": "",
+    "text": "What did getting ArcGIS Pro set up show me about the project and interface? Anything still not working?\n________________________________________\nWhy does having professional GIS software matter for someone in my discipline?\n________________________________________"
+  },
+  {
+    "objectID": "Week02_Student_Notes.html#the-week-ahead-5-min",
+    "href": "Week02_Student_Notes.html#the-week-ahead-5-min",
+    "title": "FANR 3800: Week 2 Student Notes",
+    "section": "",
+    "text": "New ideas this week: Symbology (how we show features) and Map Layout (what makes a map credible).\n________________________________________\n________________________________________"
+  },
+  {
+    "objectID": "Week02_Student_Notes.html#application-discussion-10-min-may-vary-instructors-call",
+    "href": "Week02_Student_Notes.html#application-discussion-10-min-may-vary-instructors-call",
+    "title": "FANR 3800: Week 2 Student Notes",
+    "section": "",
+    "text": "Read the prompt for your focus and jot a response; be ready to share.\n\nForestry/Forest Management: A forester maps timber stand types for a landowner. How does the choice of Symbology (colors, patterns) affect a non-GIS-savvy landowner’s understanding?\nWildlife Management: Mapping critical red-cockaded woodpecker habitat in a national forest, which essential map elements would you prioritize so managers can interpret it quickly?\nFisheries Management: Mapping fish sampling locations in a reservoir, how can map design distinguish species caught or water-quality values for a non-technical audience?\nParks Recreation & Tourism Management: How would a visitor map’s purpose (guidance) change your design choices compared with an internal maintenance map?\n\n________________________________________\n________________________________________\n________________________________________\n________________________________________"
+  },
+  {
+    "objectID": "Week02_Student_Notes.html#lecture-symbology-making-attributes-visible-15-min",
+    "href": "Week02_Student_Notes.html#lecture-symbology-making-attributes-visible-15-min",
+    "title": "FANR 3800: Week 2 Student Notes",
+    "section": "",
+    "text": "Symbology is analysis, not decoration: the same data with different symbols can tell different stories.\n\n________________________________________\n\nThe main methods: Single Symbol; Categorized / Unique Values (qualitative, e.g., species, ownership); Graduated (quantitative, e.g., age, basal area) and how class breaks change the message.\n\n________________________________________\n________________________________________\n\nChoosing well: color for categories vs. sequences; how many classes; why raw counts can mislead (normalize instead).\n\n________________________________________\nKey terms: Symbology · Categorized · Graduated · Unique Values · class breaks"
+  },
+  {
+    "objectID": "Week02_Student_Notes.html#after-class-add-detail",
+    "href": "Week02_Student_Notes.html#after-class-add-detail",
+    "title": "FANR 3800: Week 2 Student Notes",
+    "section": "",
+    "text": "From the assigned ESRI Training exercise and the eLC links, add which symbology method best fits a dataset in your field, and why.\n\n________________________________________\n________________________________________"
+  },
+  {
+    "objectID": "Week02_Student_Notes.html#lecture-map-layout-the-anatomy-of-a-credible-map-20-min",
+    "href": "Week02_Student_Notes.html#lecture-map-layout-the-anatomy-of-a-credible-map-20-min",
+    "title": "FANR 3800: Week 2 Student Notes",
+    "section": "1 · Lecture: Map Layout, the Anatomy of a Credible Map (20 min)",
+    "text": "1 · Lecture: Map Layout, the Anatomy of a Credible Map (20 min)\n\nThe essential elements (title, legend, scale bar, north arrow, and data source plus coordinate-system metadata), and what a missing element costs the reader’s trust.\n\n________________________________________\n________________________________________\n\nComposition and visual hierarchy: guiding the eye; a map for a report page vs. a map for a wall.\n\n________________________________________\n\nCredibility and honesty: how framing, extent, and class breaks can distort; cite sources; show uncertainty.\n\n________________________________________\n\nExport and delivery: EXPORT LAYOUT; format and resolution for print vs. screen; consistent file naming.\n\n________________________________________\nKey terms: legend · scale bar · north arrow · metadata · visual hierarchy · EXPORT LAYOUT"
+  },
+  {
+    "objectID": "Week02_Student_Notes.html#pre-lab-review-why-this-weeks-lab-matters-10-min",
+    "href": "Week02_Student_Notes.html#pre-lab-review-why-this-weeks-lab-matters-10-min",
+    "title": "FANR 3800: Week 2 Student Notes",
+    "section": "2 · Pre-lab Review: Why This Week’s Lab Matters (10 min)",
+    "text": "2 · Pre-lab Review: Why This Week’s Lab Matters (10 min)\nThis week’s lab has you build and symbolize a map. Why is a clear, credible map a professional deliverable in my field?\n________________________________________\n________________________________________"
+  },
+  {
+    "objectID": "Week02_Student_Notes.html#pre-lab-review-methods-tools-10-min",
+    "href": "Week02_Student_Notes.html#pre-lab-review-methods-tools-10-min",
+    "title": "FANR 3800: Week 2 Student Notes",
+    "section": "3 · Pre-lab Review: Methods & Tools (10 min)",
+    "text": "3 · Pre-lab Review: Methods & Tools (10 min)\nThe tools and steps I will use this afternoon: the SYMBOLOGY pane, the LAYOUT view, and EXPORT LAYOUT.\n________________________________________\n________________________________________"
+  },
+  {
+    "objectID": "Week02_Student_Notes.html#week-summary-10-min",
+    "href": "Week02_Student_Notes.html#week-summary-10-min",
+    "title": "FANR 3800: Week 2 Student Notes",
+    "section": "4 · Week Summary (10 min)",
+    "text": "4 · Week Summary (10 min)\nIn your own words, the one thing to remember from Week 2:\n________________________________________\n________________________________________\nQuestions I still have (bring to Monday):\n________________________________________\nDeliverables: ESRI Training certificate due Wed 8:40 AM; lab document due Sunday 11:59 PM."
+  },
+  {
+    "objectID": "Week02_Student_Notes.html#after-class-add-detail-1",
+    "href": "Week02_Student_Notes.html#after-class-add-detail-1",
+    "title": "FANR 3800: Week 2 Student Notes",
+    "section": "After Class: Add Detail",
+    "text": "After Class: Add Detail\n\nFrom the assigned ESRI Training exercise and the eLC links, write the checklist of elements you will put on every map, and add the one you are most likely to forget.\n\n________________________________________\n________________________________________"
+  },
+  {
+    "objectID": "Week02_Student_Notes.html#evening-review-checklist-second-pass",
+    "href": "Week02_Student_Notes.html#evening-review-checklist-second-pass",
+    "title": "FANR 3800: Week 2 Student Notes",
+    "section": "Evening Review Checklist (Second Pass)",
+    "text": "Evening Review Checklist (Second Pass)\n\nReread my in-class notes within 24 hours\nAdded detail from the assigned ESRI Training exercise\nAdded detail from the eLC web links\nWrote my own one-sentence summary of the week\nListed questions to ask on Monday"
+  },
+  {
+    "objectID": "Week01_Student_Notes.html",
+    "href": "Week01_Student_Notes.html",
+    "title": "FANR 3800: Week 1 Student Notes",
+    "section": "",
+    "text": "Name: ______________________________ Date: ____________\n\n\nIn class, capture the key idea under each prompt in your own words: a phrase or a sentence, not everything. That evening, reread your notes and use the “After class: add detail” box at the bottom of each page to add detail from the assigned ESRI Training exercise and the eLC links. Need more room? Use your own paper.\n(Week 1 note: we have no previous lab yet, so a couple of sections are adapted for our first week.)\n\n\n\nWeekly schedule, ESRI Training, deliverables, and due dates.\n________________________________________\n________________________________________\n\n\n\nIn one sentence, what is GIS as a way of thinking, not just software?\n________________________________________\nA management question from my discipline that is really a “where?” question.\n________________________________________\n\n\n\nNew ideas this week: Spatial Thinking, the Vector Data Model, the Raster Data Model.\n________________________________________\n________________________________________\n\n\n\nRead the prompt for your focus and jot a response; be ready to share.\n\nForestry/Forest Management: As a new forestry student, how do you envision GIS being used to manage timberlands in the pine forests of the Southeast?\nWildlife Management: Why is a consistent file-naming convention important for a biologist tracking endangered-species sightings in the Everglades?\nFisheries Management: As a fisheries biologist studying a large reservoir, what “spatial data” might you collect, and how could GIS help you understand it?\nParks Recreation & Tourism Management: For a manager at a Georgia Piedmont state park, how could GIS help manage visitor access or trail maintenance?\n\n________________________________________\n________________________________________\n________________________________________\n________________________________________\n\n\n\n\nGIS is data, software, methods, hardware, and people, used to ask and answer spatial questions.\n\n________________________________________\n\nWhy every natural resource decision has a spatial component.\n\n________________________________________\n\nThe five arcs (A to E): the one-line story of each.\n\n________________________________________\n________________________________________\nKey terms: GIS · spatial data · arc\n\n\n\n\nFrom the assigned ESRI Training exercise and the eLC links, add one concrete example of GIS used in your discipline, and a definition of “spatial data” in your own words.\n\n________________________________________\n________________________________________"
+  },
+  {
+    "objectID": "Week01_Student_Notes.html#how-to-use-this-sheet-two-pass-notes",
+    "href": "Week01_Student_Notes.html#how-to-use-this-sheet-two-pass-notes",
+    "title": "FANR 3800: Week 1 Student Notes",
+    "section": "",
+    "text": "In class, capture the key idea under each prompt in your own words: a phrase or a sentence, not everything. That evening, reread your notes and use the “After class: add detail” box at the bottom of each page to add detail from the assigned ESRI Training exercise and the eLC links. Need more room? Use your own paper.\n(Week 1 note: we have no previous lab yet, so a couple of sections are adapted for our first week.)"
+  },
+  {
+    "objectID": "Week01_Student_Notes.html#this-week-10-min",
+    "href": "Week01_Student_Notes.html#this-week-10-min",
+    "title": "FANR 3800: Week 1 Student Notes",
+    "section": "",
+    "text": "Weekly schedule, ESRI Training, deliverables, and due dates.\n________________________________________\n________________________________________"
+  },
+  {
+    "objectID": "Week01_Student_Notes.html#course-gis-orientation-10-min",
+    "href": "Week01_Student_Notes.html#course-gis-orientation-10-min",
+    "title": "FANR 3800: Week 1 Student Notes",
+    "section": "",
+    "text": "In one sentence, what is GIS as a way of thinking, not just software?\n________________________________________\nA management question from my discipline that is really a “where?” question.\n________________________________________"
+  },
+  {
+    "objectID": "Week01_Student_Notes.html#the-week-ahead-5-min",
+    "href": "Week01_Student_Notes.html#the-week-ahead-5-min",
+    "title": "FANR 3800: Week 1 Student Notes",
+    "section": "",
+    "text": "New ideas this week: Spatial Thinking, the Vector Data Model, the Raster Data Model.\n________________________________________\n________________________________________"
+  },
+  {
+    "objectID": "Week01_Student_Notes.html#application-discussion-10-min-may-vary-instructors-call",
+    "href": "Week01_Student_Notes.html#application-discussion-10-min-may-vary-instructors-call",
+    "title": "FANR 3800: Week 1 Student Notes",
+    "section": "",
+    "text": "Read the prompt for your focus and jot a response; be ready to share.\n\nForestry/Forest Management: As a new forestry student, how do you envision GIS being used to manage timberlands in the pine forests of the Southeast?\nWildlife Management: Why is a consistent file-naming convention important for a biologist tracking endangered-species sightings in the Everglades?\nFisheries Management: As a fisheries biologist studying a large reservoir, what “spatial data” might you collect, and how could GIS help you understand it?\nParks Recreation & Tourism Management: For a manager at a Georgia Piedmont state park, how could GIS help manage visitor access or trail maintenance?\n\n________________________________________\n________________________________________\n________________________________________\n________________________________________"
+  },
+  {
+    "objectID": "Week01_Student_Notes.html#lecture-what-gis-is-and-why-your-problems-are-spatial-15-min",
+    "href": "Week01_Student_Notes.html#lecture-what-gis-is-and-why-your-problems-are-spatial-15-min",
+    "title": "FANR 3800: Week 1 Student Notes",
+    "section": "",
+    "text": "GIS is data, software, methods, hardware, and people, used to ask and answer spatial questions.\n\n________________________________________\n\nWhy every natural resource decision has a spatial component.\n\n________________________________________\n\nThe five arcs (A to E): the one-line story of each.\n\n________________________________________\n________________________________________\nKey terms: GIS · spatial data · arc"
+  },
+  {
+    "objectID": "Week01_Student_Notes.html#after-class-add-detail",
+    "href": "Week01_Student_Notes.html#after-class-add-detail",
+    "title": "FANR 3800: Week 1 Student Notes",
+    "section": "",
+    "text": "From the assigned ESRI Training exercise and the eLC links, add one concrete example of GIS used in your discipline, and a definition of “spatial data” in your own words.\n\n________________________________________\n________________________________________"
+  },
+  {
+    "objectID": "Week01_Student_Notes.html#lecture-how-we-represent-the-world-the-two-data-models-20-min",
+    "href": "Week01_Student_Notes.html#lecture-how-we-represent-the-world-the-two-data-models-20-min",
+    "title": "FANR 3800: Week 1 Student Notes",
+    "section": "1 · Lecture: How We Represent the World, the Two Data Models (20 min)",
+    "text": "1 · Lecture: How We Represent the World, the Two Data Models (20 min)\n\nVector Data Model: points, lines, polygons, each with an attribute table. One natural-resource example of each.\n\n________________________________________\n________________________________________\n\nRaster Data Model: a grid of cells, one value each; Spatial Resolution and cell size are related; integer vs. floating-point vs. multiband.\n\n________________________________________\n________________________________________\n\nHow do I decide whether a dataset should be vector or raster?\n\n________________________________________\nKey terms: vector · raster · cell / resolution · attribute table"
+  },
+  {
+    "objectID": "Week01_Student_Notes.html#getting-ready-for-lab-why-it-matters-10-min",
+    "href": "Week01_Student_Notes.html#getting-ready-for-lab-why-it-matters-10-min",
+    "title": "FANR 3800: Week 1 Student Notes",
+    "section": "2 · Getting Ready for Lab: Why It Matters (10 min)",
+    "text": "2 · Getting Ready for Lab: Why It Matters (10 min)\nWhat will getting set up (ESRI account and ArcGIS Pro) let me do, and why do it now?\n________________________________________\n________________________________________"
+  },
+  {
+    "objectID": "Week01_Student_Notes.html#getting-ready-for-lab-steps-tools-10-min",
+    "href": "Week01_Student_Notes.html#getting-ready-for-lab-steps-tools-10-min",
+    "title": "FANR 3800: Week 1 Student Notes",
+    "section": "3 · Getting Ready for Lab: Steps & Tools (10 min)",
+    "text": "3 · Getting Ready for Lab: Steps & Tools (10 min)\nThe setup steps and what I will meet in the interface: ESRI account, ArcGIS Pro access, training account; the project, map view, and Catalog.\n________________________________________\n________________________________________"
+  },
+  {
+    "objectID": "Week01_Student_Notes.html#week-summary-10-min",
+    "href": "Week01_Student_Notes.html#week-summary-10-min",
+    "title": "FANR 3800: Week 1 Student Notes",
+    "section": "4 · Week Summary (10 min)",
+    "text": "4 · Week Summary (10 min)\nIn your own words, the one thing to remember from Week 1:\n________________________________________\n________________________________________\nQuestions I still have (bring to Monday):\n________________________________________\nDeliverables: ESRI account and ArcGIS Pro access by the start of Week 2; first ESRI Training module before next Wednesday."
+  },
+  {
+    "objectID": "Week01_Student_Notes.html#after-class-add-detail-1",
+    "href": "Week01_Student_Notes.html#after-class-add-detail-1",
+    "title": "FANR 3800: Week 1 Student Notes",
+    "section": "After Class: Add Detail",
+    "text": "After Class: Add Detail\n\nFrom the assigned ESRI Training exercise and the eLC links, add one dataset you would store as vector and one you would store as raster in your field, and note why.\n\n________________________________________\n________________________________________"
+  },
+  {
+    "objectID": "Week01_Student_Notes.html#evening-review-checklist-second-pass",
+    "href": "Week01_Student_Notes.html#evening-review-checklist-second-pass",
+    "title": "FANR 3800: Week 1 Student Notes",
+    "section": "Evening Review Checklist (Second Pass)",
+    "text": "Evening Review Checklist (Second Pass)\n\nReread my in-class notes within 24 hours\nAdded detail from the assigned ESRI Training exercise\nAdded detail from the eLC web links\nWrote my own one-sentence summary of the week\nListed questions to ask on Monday"
   },
   {
     "objectID": "index.html",
@@ -39,20 +214,41 @@
     "href": "Week01_Lecture.html",
     "title": "FANR 3800: Week 1 Lecture Plan",
     "section": "",
-    "text": "Arc A: Build a base you can trust. Two 50-minute lectures (Mon & Wed). Week 1 sets the intellectual frame for the whole semester and plants the vocabulary (spatial data, the two data models) that every later arc reuses. It is also the setup week, so protect a few minutes for the ESRI environment.\nNotation: ArcGIS Pro tools appear as ALL-CAPS; methods and concepts as Proper-Case italics.\n\n\n\nLearning objectives. Students can (1) state what GIS is as an analytical framework rather than a program, (2) give an example from their own discipline where a management question is really a spatial question, and (3) describe how the course’s five arcs move from data to decision.\nSession outline (~50 min).\n\n(0–10) The hook. Open with a management question from each Warnell track, “Which stands should we thin?” (silviculture), “Where is the deer herd concentrating?” (wildlife), “Which reaches need streamside protection?” (fisheries), “Where are trails eroding?” (parks). Draw out that each contains a hidden where.\n(10–25) What GIS actually is. Data + software + methods + people for asking and answering spatial questions. Distinguish the analytical framework from the software; ArcGIS Pro is one tool for a way of thinking.\n(25–40) The course as a story. Walk the five arcs at one sentence each: build a trustworthy base (A) → ask questions of data (B) → decide where things go, vector (C) → model conditions that vary, raster (D) → combine everything (E). Emphasize that tools serve questions, not the reverse.\n(40–50) Logistics. Syllabus highlights, the lecture/lab rhythm, the weekly ESRI-module expectation, and how notes/handwritten work fit in. Assign the Week 2 ESRI module and the account setup.\n\nFraming to emphasize. “Every natural resource decision has a spatial component.” Return to this sentence all semester.\nTools introduced: none, project creation and interface navigation only. Methods/concepts introduced: Spatial Thinking.\n\n\n\n\nLearning objectives. Students can (1) distinguish discrete features from continuous phenomena, (2) name the vector geometry types and the raster grid concept, and (3) predict which model fits a given natural resource dataset.\nSession outline (~50 min).\n\n(0–5) Setup check. Confirm ESRI accounts and ArcGIS Pro access; note who needs the GIS lab. Flag that unresolved access must be fixed before Week 2.\n(5–25) The Vector Data Model. Points, lines, polygons, each carrying an attribute table (one row per feature). Natural resource examples: sample plots and nests (points); streams, roads, boundaries (lines); stands, compartments, watersheds (polygons). Strengths (discrete features, attribute richness, precise edges) and limits (poor for gradients).\n(25–40) The Raster Data Model. A regular grid of cells, one value each; cell size = Spatial Resolution; integer (categories) vs. floating-point (continuous) vs. multiband (imagery). Examples: elevation, temperature, land cover, satellite bands. Strengths (continuous phenomena, fast math across large areas) and limits (jagged boundaries, one value per cell).\n(40–50) Choosing a model. Discrete-with-hard-edges → vector; gradient or many-factor surface → raster; most real problems → both. Preview that Arcs A–C live mostly in vector and Arc D introduces raster in earnest.\n\nFraming to emphasize. The model you choose is a modeling decision with consequences, not a technical default. Plant the vector↔︎raster parallel now so it pays off in Arc D.\nConnections. Vocabulary here underpins every week; the vector/raster choice returns explicitly in Weeks 9–12.\nTools introduced: none, interface navigation only. Methods/concepts introduced: Vector Data Model, Raster Data Model, Spatial Resolution."
+    "text": "Arc A: Build a base you can trust. Two 50-minute lectures (Mon & Wed). Week 1 frames the whole semester and introduces the vocabulary (spatial data, the two data models) that every later arc reuses. Focus is on establishing the ESRI environment.\nNotation: ArcGIS Pro tools appear as ALL-CAPS; methods and concepts as Proper-Case italics.\n\n\n\nLearning objectives. Students can (1) state what GIS is as an analytical framework rather than a program, (2) give an example from their own discipline where a management question is really a spatial question, and (3) log into the ESRI Training environment and begin assigned training modules.\nSession outline (~50 min).\n\n(0–10) Where is the where? “Which stands should we thin?” (silviculture), “Where is the deer herd concentrating?” (wildlife), “Which reaches need streamside protection?” (fisheries), “Where are trails eroding?” (parks).\n(10–25) What GIS actually is. Data + software + hardware + methods + people for asking and answering spatial questions. “Spatial thinking” is the analytical framework and ArcGIS Pro is the software in which we apply those spatial thoughts.\n(25–40) Five FANR3800 arcs (topics) build a trustworthy base (A) → ask questions of data (B) → decide where things go, vector (C) → model conditions that vary, raster (D) → combine everything (E).\n(40–50) Logistics. Syllabus highlights, the lecture/lab rhythm, the weekly ESRI-module expectation, and how notes/handwritten work fit in. Assign the Week 2 ESRI module and the account setup.\n\nFraming to emphasize. “Every natural resource decision has a spatial component.”\nMethods/concepts introduced: Spatial Thinking.\n\n\n\n\nLearning objectives. Students can (1) distinguish discrete features from continuous phenomena, (2) name the vector geometry types and the raster grid concept, and (3) predict which model fits a given natural resource dataset.\nSession outline (~50 min).\n\n(0–5) Setup check. Confirm ESRI accounts and ArcGIS Pro access; note who needs the GIS lab.\n(5–25) The Vector Data Model. Points, lines, polygons, each carrying an attribute table (one row per feature). Natural resource examples: sample plots and nests (points); streams, roads, boundaries (lines); stands, compartments, watersheds (polygons). Strengths (discrete features, attribute richness, precise edges) and limits (poor for gradients).\n(25–40) The Raster Data Model. A regular grid of cells, one value each; cell size implies spatial resolution; integer (categories) vs. floating-point (continuous) vs. multiband (imagery). Examples: elevation, temperature, land cover, satellite bands. Strengths (continuous phenomena, fast math across large areas) and limits (imprecise boundaries, one value per cell).\n(40–50) Choosing a model. Discrete-with-hard-edges → vector; gradient or many-factor surface → raster; most real problems → both.\n\nFraming to emphasize. The model you choose is a modeling decision with consequences, not a technical default. Connections. Vocabulary here underpins every week; the vector/raster choice returns explicitly in Weeks 9–12.\nTools introduced: none, interface navigation only. Methods/concepts introduced: Vector Data Model, Raster Data Model, Spatial Resolution."
   },
   {
     "objectID": "Week01_Lecture.html#monday-what-gis-is-and-why-your-problems-are-spatial",
     "href": "Week01_Lecture.html#monday-what-gis-is-and-why-your-problems-are-spatial",
     "title": "FANR 3800: Week 1 Lecture Plan",
     "section": "",
-    "text": "Learning objectives. Students can (1) state what GIS is as an analytical framework rather than a program, (2) give an example from their own discipline where a management question is really a spatial question, and (3) describe how the course’s five arcs move from data to decision.\nSession outline (~50 min).\n\n(0–10) The hook. Open with a management question from each Warnell track, “Which stands should we thin?” (silviculture), “Where is the deer herd concentrating?” (wildlife), “Which reaches need streamside protection?” (fisheries), “Where are trails eroding?” (parks). Draw out that each contains a hidden where.\n(10–25) What GIS actually is. Data + software + methods + people for asking and answering spatial questions. Distinguish the analytical framework from the software; ArcGIS Pro is one tool for a way of thinking.\n(25–40) The course as a story. Walk the five arcs at one sentence each: build a trustworthy base (A) → ask questions of data (B) → decide where things go, vector (C) → model conditions that vary, raster (D) → combine everything (E). Emphasize that tools serve questions, not the reverse.\n(40–50) Logistics. Syllabus highlights, the lecture/lab rhythm, the weekly ESRI-module expectation, and how notes/handwritten work fit in. Assign the Week 2 ESRI module and the account setup.\n\nFraming to emphasize. “Every natural resource decision has a spatial component.” Return to this sentence all semester.\nTools introduced: none, project creation and interface navigation only. Methods/concepts introduced: Spatial Thinking."
+    "text": "Learning objectives. Students can (1) state what GIS is as an analytical framework rather than a program, (2) give an example from their own discipline where a management question is really a spatial question, and (3) log into the ESRI Training environment and begin assigned training modules.\nSession outline (~50 min).\n\n(0–10) Where is the where? “Which stands should we thin?” (silviculture), “Where is the deer herd concentrating?” (wildlife), “Which reaches need streamside protection?” (fisheries), “Where are trails eroding?” (parks).\n(10–25) What GIS actually is. Data + software + hardware + methods + people for asking and answering spatial questions. “Spatial thinking” is the analytical framework and ArcGIS Pro is the software in which we apply those spatial thoughts.\n(25–40) Five FANR3800 arcs (topics) build a trustworthy base (A) → ask questions of data (B) → decide where things go, vector (C) → model conditions that vary, raster (D) → combine everything (E).\n(40–50) Logistics. Syllabus highlights, the lecture/lab rhythm, the weekly ESRI-module expectation, and how notes/handwritten work fit in. Assign the Week 2 ESRI module and the account setup.\n\nFraming to emphasize. “Every natural resource decision has a spatial component.”\nMethods/concepts introduced: Spatial Thinking."
   },
   {
     "objectID": "Week01_Lecture.html#wednesday-how-we-represent-the-world-the-two-data-models",
     "href": "Week01_Lecture.html#wednesday-how-we-represent-the-world-the-two-data-models",
     "title": "FANR 3800: Week 1 Lecture Plan",
     "section": "",
-    "text": "Learning objectives. Students can (1) distinguish discrete features from continuous phenomena, (2) name the vector geometry types and the raster grid concept, and (3) predict which model fits a given natural resource dataset.\nSession outline (~50 min).\n\n(0–5) Setup check. Confirm ESRI accounts and ArcGIS Pro access; note who needs the GIS lab. Flag that unresolved access must be fixed before Week 2.\n(5–25) The Vector Data Model. Points, lines, polygons, each carrying an attribute table (one row per feature). Natural resource examples: sample plots and nests (points); streams, roads, boundaries (lines); stands, compartments, watersheds (polygons). Strengths (discrete features, attribute richness, precise edges) and limits (poor for gradients).\n(25–40) The Raster Data Model. A regular grid of cells, one value each; cell size = Spatial Resolution; integer (categories) vs. floating-point (continuous) vs. multiband (imagery). Examples: elevation, temperature, land cover, satellite bands. Strengths (continuous phenomena, fast math across large areas) and limits (jagged boundaries, one value per cell).\n(40–50) Choosing a model. Discrete-with-hard-edges → vector; gradient or many-factor surface → raster; most real problems → both. Preview that Arcs A–C live mostly in vector and Arc D introduces raster in earnest.\n\nFraming to emphasize. The model you choose is a modeling decision with consequences, not a technical default. Plant the vector↔︎raster parallel now so it pays off in Arc D.\nConnections. Vocabulary here underpins every week; the vector/raster choice returns explicitly in Weeks 9–12.\nTools introduced: none, interface navigation only. Methods/concepts introduced: Vector Data Model, Raster Data Model, Spatial Resolution."
+    "text": "Learning objectives. Students can (1) distinguish discrete features from continuous phenomena, (2) name the vector geometry types and the raster grid concept, and (3) predict which model fits a given natural resource dataset.\nSession outline (~50 min).\n\n(0–5) Setup check. Confirm ESRI accounts and ArcGIS Pro access; note who needs the GIS lab.\n(5–25) The Vector Data Model. Points, lines, polygons, each carrying an attribute table (one row per feature). Natural resource examples: sample plots and nests (points); streams, roads, boundaries (lines); stands, compartments, watersheds (polygons). Strengths (discrete features, attribute richness, precise edges) and limits (poor for gradients).\n(25–40) The Raster Data Model. A regular grid of cells, one value each; cell size implies spatial resolution; integer (categories) vs. floating-point (continuous) vs. multiband (imagery). Examples: elevation, temperature, land cover, satellite bands. Strengths (continuous phenomena, fast math across large areas) and limits (imprecise boundaries, one value per cell).\n(40–50) Choosing a model. Discrete-with-hard-edges → vector; gradient or many-factor surface → raster; most real problems → both.\n\nFraming to emphasize. The model you choose is a modeling decision with consequences, not a technical default. Connections. Vocabulary here underpins every week; the vector/raster choice returns explicitly in Weeks 9–12.\nTools introduced: none, interface navigation only. Methods/concepts introduced: Vector Data Model, Raster Data Model, Spatial Resolution."
+  },
+  {
+    "objectID": "Week02_Lecture.html",
+    "href": "Week02_Lecture.html",
+    "title": "FANR 3800: Week 2 Lecture Plan",
+    "section": "",
+    "text": "Arc A: Build a base you can trust. Two 50-minute lectures (Mon & Wed). Map communication is taught early, deliberately, so students can present every subsequent analysis credibly. The theme: a map is an argument, and design determines whether the argument is believed.\nNotation: ArcGIS Pro tools appear as ALL-CAPS; methods and concepts as Proper-Case italics.\n\n\n\nLearning objectives. Students can (1) match a Symbology method to a data type, (2) explain how a symbology choice changes the story a map tells, and (3) avoid the common misreadings caused by poor symbol choices.\nSession outline (~50 min).\n\n(0–10) Why symbology is analysis, not decoration. Same data, two symbol schemes, two different conclusions. Set up the responsibility that comes with representation.\n(10–30) The main methods. Single Symbol (location only); Categorized / Unique Values (qualitative classes, species, ownership, cover type); Graduated (quantitative, age, basal area, density) and the effect of classification method and class breaks. Tie each to a data type from Week 1’s attribute tables.\n(30–45) Choosing well. Color for categories vs. sequences; number of classes; when a choropleth misleads (raw counts vs. normalized rates); accessibility of color choices.\n(45–50) Setup for Wednesday. A well-symbolized layer still isn’t a finished map, preview Map Layout.\n\nFraming to emphasize. Landowners and stakeholders act on the map, not the attribute table. Symbology is where the data becomes a decision.\nTools introduced: none, the SYMBOLOGY pane is a ribbon/pane workflow, not a geoprocessing tool. Methods/concepts introduced: Symbology (Categorized, Graduated, Unique Values), Cartographic Communication.\n\n\n\n\nLearning objectives. Students can (1) list the essential map elements and justify each, (2) apply visual hierarchy so the main message reads first, and (3) export a publication-ready map with complete source information.\nSession outline (~50 min).\n\n(0–15) The essential elements. Title, legend, scale bar, north arrow, and, emphasized, data source and coordinate system metadata. Why each exists and what a missing element costs the reader’s trust.\n(15–30) Composition and hierarchy. Guiding the eye: figure-ground, balance, what to enlarge and what to subordinate; the difference between a map made for a report page and one made for a wall.\n(30–42) Credibility and honesty. Scale and audience; how framing, extent, and class breaks can distort; the professional obligation to represent uncertainty and cite sources.\n(42–50) Export and delivery. Formats and resolution for print vs. screen via EXPORT LAYOUT; naming and file organization consistent with the course conventions.\n\nFraming to emphasize. Good design makes the spatial story clear; poor design obscures it and undermines the analyst’s credibility. This is the deliverable skill every arc ends on.\nConnections. Every arc culminates in a map or summary; the elements introduced here are expected on all lab deliverables and exams.\nTools introduced: EXPORT LAYOUT (the LAYOUT view itself is a ribbon/pane workflow). Methods/concepts introduced: Map Layout, Cartographic Communication."
+  },
+  {
+    "objectID": "Week02_Lecture.html#monday-symbology-making-attributes-visible",
+    "href": "Week02_Lecture.html#monday-symbology-making-attributes-visible",
+    "title": "FANR 3800: Week 2 Lecture Plan",
+    "section": "",
+    "text": "Learning objectives. Students can (1) match a Symbology method to a data type, (2) explain how a symbology choice changes the story a map tells, and (3) avoid the common misreadings caused by poor symbol choices.\nSession outline (~50 min).\n\n(0–10) Why symbology is analysis, not decoration. Same data, two symbol schemes, two different conclusions. Set up the responsibility that comes with representation.\n(10–30) The main methods. Single Symbol (location only); Categorized / Unique Values (qualitative classes, species, ownership, cover type); Graduated (quantitative, age, basal area, density) and the effect of classification method and class breaks. Tie each to a data type from Week 1’s attribute tables.\n(30–45) Choosing well. Color for categories vs. sequences; number of classes; when a choropleth misleads (raw counts vs. normalized rates); accessibility of color choices.\n(45–50) Setup for Wednesday. A well-symbolized layer still isn’t a finished map, preview Map Layout.\n\nFraming to emphasize. Landowners and stakeholders act on the map, not the attribute table. Symbology is where the data becomes a decision.\nTools introduced: none, the SYMBOLOGY pane is a ribbon/pane workflow, not a geoprocessing tool. Methods/concepts introduced: Symbology (Categorized, Graduated, Unique Values), Cartographic Communication."
+  },
+  {
+    "objectID": "Week02_Lecture.html#wednesday-map-layout-the-anatomy-of-a-credible-map",
+    "href": "Week02_Lecture.html#wednesday-map-layout-the-anatomy-of-a-credible-map",
+    "title": "FANR 3800: Week 2 Lecture Plan",
+    "section": "",
+    "text": "Learning objectives. Students can (1) list the essential map elements and justify each, (2) apply visual hierarchy so the main message reads first, and (3) export a publication-ready map with complete source information.\nSession outline (~50 min).\n\n(0–15) The essential elements. Title, legend, scale bar, north arrow, and, emphasized, data source and coordinate system metadata. Why each exists and what a missing element costs the reader’s trust.\n(15–30) Composition and hierarchy. Guiding the eye: figure-ground, balance, what to enlarge and what to subordinate; the difference between a map made for a report page and one made for a wall.\n(30–42) Credibility and honesty. Scale and audience; how framing, extent, and class breaks can distort; the professional obligation to represent uncertainty and cite sources.\n(42–50) Export and delivery. Formats and resolution for print vs. screen via EXPORT LAYOUT; naming and file organization consistent with the course conventions.\n\nFraming to emphasize. Good design makes the spatial story clear; poor design obscures it and undermines the analyst’s credibility. This is the deliverable skill every arc ends on.\nConnections. Every arc culminates in a map or summary; the elements introduced here are expected on all lab deliverables and exams.\nTools introduced: EXPORT LAYOUT (the LAYOUT view itself is a ribbon/pane workflow). Methods/concepts introduced: Map Layout, Cartographic Communication."
   }
 ]
