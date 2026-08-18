@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Dr.&nbsp;Tripp Lowe">
+<meta name="dcterms.date" content="2026-01-01">
 
-<title>FANR 3800: Week 1 Student Notes – Course Lectures</title>
+<title>FANR 3800: Weekly ArcGIS Pro Tools &amp; Methods – Course Lectures</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -114,46 +116,44 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#week-1---everything-has-a-spatial-component" id="toc-week-1---everything-has-a-spatial-component" class="nav-link active" data-scroll-target="#week-1---everything-has-a-spatial-component">Week 1 - Everything Has a Spatial Component?</a>
+  <li><a href="#weekly-arcgis-pro-tools-methods" id="toc-weekly-arcgis-pro-tools-methods" class="nav-link active" data-scroll-target="#weekly-arcgis-pro-tools-methods">Weekly ArcGIS Pro Tools &amp; Methods</a>
   <ul class="collapse">
-  <li><a href="#how-to-use-this-sheet-two-pass-notes" id="toc-how-to-use-this-sheet-two-pass-notes" class="nav-link" data-scroll-target="#how-to-use-this-sheet-two-pass-notes">How to Use This Sheet: Two-Pass Notes</a></li>
-  <li><a href="#this-week-10-min" id="toc-this-week-10-min" class="nav-link" data-scroll-target="#this-week-10-min">1 · This Week <em>(10 min)</em></a></li>
-  <li><a href="#course-gis-orientation-10-min" id="toc-course-gis-orientation-10-min" class="nav-link" data-scroll-target="#course-gis-orientation-10-min">2 · Course &amp; GIS Orientation <em>(10 min)</em></a></li>
-  <li><a href="#the-week-ahead-5-min" id="toc-the-week-ahead-5-min" class="nav-link" data-scroll-target="#the-week-ahead-5-min">3 · The Week Ahead <em>(5 min)</em></a></li>
-  <li><a href="#application-discussion-10-min-may-vary-instructors-call" id="toc-application-discussion-10-min-may-vary-instructors-call" class="nav-link" data-scroll-target="#application-discussion-10-min-may-vary-instructors-call">4 · Application Discussion <em>(10 min)</em> <em>(may vary; instructor’s call)</em></a></li>
-  <li><a href="#lecture-what-gis-is-and-why-your-problems-are-spatial-15-min" id="toc-lecture-what-gis-is-and-why-your-problems-are-spatial-15-min" class="nav-link" data-scroll-target="#lecture-what-gis-is-and-why-your-problems-are-spatial-15-min">5 · Lecture: What GIS Is and Why Your Problems Are Spatial <em>(15 min)</em></a></li>
-  <li><a href="#after-class-add-detail" id="toc-after-class-add-detail" class="nav-link" data-scroll-target="#after-class-add-detail">After Class: Add Detail</a></li>
-  </ul></li>
-  <li><a href="#wednesday" id="toc-wednesday" class="nav-link" data-scroll-target="#wednesday">WEDNESDAY</a>
-  <ul class="collapse">
-  <li><a href="#lecture-how-we-represent-the-world-the-two-data-models-20-min" id="toc-lecture-how-we-represent-the-world-the-two-data-models-20-min" class="nav-link" data-scroll-target="#lecture-how-we-represent-the-world-the-two-data-models-20-min">1 · Lecture: How We Represent the World, the Two Data Models <em>(20 min)</em></a></li>
-  <li><a href="#getting-ready-for-lab-why-it-matters-10-min" id="toc-getting-ready-for-lab-why-it-matters-10-min" class="nav-link" data-scroll-target="#getting-ready-for-lab-why-it-matters-10-min">2 · Getting Ready for Lab: Why It Matters <em>(10 min)</em></a></li>
-  <li><a href="#getting-ready-for-lab-steps-tools-10-min" id="toc-getting-ready-for-lab-steps-tools-10-min" class="nav-link" data-scroll-target="#getting-ready-for-lab-steps-tools-10-min">3 · Getting Ready for Lab: Steps &amp; Tools <em>(10 min)</em></a></li>
-  <li><a href="#week-summary-10-min" id="toc-week-summary-10-min" class="nav-link" data-scroll-target="#week-summary-10-min">4 · Week Summary <em>(10 min)</em></a></li>
-  <li><a href="#after-class-add-detail-1" id="toc-after-class-add-detail-1" class="nav-link" data-scroll-target="#after-class-add-detail-1">After Class: Add Detail</a></li>
-  <li><a href="#evening-review-checklist-second-pass" id="toc-evening-review-checklist-second-pass" class="nav-link" data-scroll-target="#evening-review-checklist-second-pass">Evening Review Checklist (Second Pass)</a></li>
+  <li><a href="#notation-convention-applies-to-all-course-documents" id="toc-notation-convention-applies-to-all-course-documents" class="nav-link" data-scroll-target="#notation-convention-applies-to-all-course-documents">Notation Convention (Applies to All Course Documents)</a></li>
+  <li><a href="#verification-note" id="toc-verification-note" class="nav-link" data-scroll-target="#verification-note">Verification Note</a></li>
+  <li><a href="#arc-a-build-a-base-you-can-trust" id="toc-arc-a-build-a-base-you-can-trust" class="nav-link" data-scroll-target="#arc-a-build-a-base-you-can-trust">Arc A: Build a Base You Can Trust</a></li>
+  <li><a href="#arc-b-ask-questions-of-your-data" id="toc-arc-b-ask-questions-of-your-data" class="nav-link" data-scroll-target="#arc-b-ask-questions-of-your-data">Arc B: Ask Questions of Your Data</a></li>
+  <li><a href="#arc-c-where-should-something-happen-vector" id="toc-arc-c-where-should-something-happen-vector" class="nav-link" data-scroll-target="#arc-c-where-should-something-happen-vector">Arc C: Where Should Something Happen? (Vector)</a></li>
+  <li><a href="#arc-d-conditions-that-vary-across-the-land-raster" id="toc-arc-d-conditions-that-vary-across-the-land-raster" class="nav-link" data-scroll-target="#arc-d-conditions-that-vary-across-the-land-raster">Arc D: Conditions That Vary Across the Land (Raster)</a></li>
+  <li><a href="#arc-e-real-problems-mix-everything" id="toc-arc-e-real-problems-mix-everything" class="nav-link" data-scroll-target="#arc-e-real-problems-mix-everything">Arc E: Real Problems Mix Everything</a></li>
+  <li><a href="#quick-alphabetical-tool-index" id="toc-quick-alphabetical-tool-index" class="nav-link" data-scroll-target="#quick-alphabetical-tool-index">Quick Alphabetical Tool Index</a></li>
   </ul></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Week01_Student_Notes.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="Week01_Student_Notes.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Weekly_Tools_Methods.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="Weekly_Tools_Methods.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">FANR 3800: Week 1 Student Notes</h1>
-<p class="subtitle lead">Spatial Analysis for Natural Resources · Fall 2026</p>
+<h1 class="title">FANR 3800: Weekly ArcGIS Pro Tools &amp; Methods</h1>
+<p class="subtitle lead">Tools and methods introduced each week (ArcGIS Pro v3.7x)</p>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Dr.&nbsp;Tripp Lowe </p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">Invalid Date</p>
+      <p class="date">January 1, 2026</p>
     </div>
   </div>
   
@@ -165,134 +165,334 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="week-1---everything-has-a-spatial-component" class="level1">
-<h1>Week 1 - Everything Has a Spatial Component?</h1>
-<p><strong>Name: ______________________________ Date: ____________</strong></p>
-<section id="how-to-use-this-sheet-two-pass-notes" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-use-this-sheet-two-pass-notes">How to Use This Sheet: Two-Pass Notes</h2>
-<p>In class, capture the key idea under each prompt in your own words: a phrase or a sentence, not everything. That evening, reread your notes and use the “After class: add detail” box at the bottom of each page to add detail from the assigned ESRI Training exercise and the eLC links. Need more room? Use your own paper.</p>
-<p><em>(Week 1 note: we have no previous lab yet, so a couple of sections are adapted for our first week.)</em></p>
-</section>
-<section id="this-week-10-min" class="level2">
-<h2 class="anchored" data-anchor-id="this-week-10-min">1 · This Week <em>(10 min)</em></h2>
-<p>Weekly schedule, ESRI Training, deliverables, and due dates.</p>
-<p>________________________________________</p>
-<p>________________________________________</p>
-</section>
-<section id="course-gis-orientation-10-min" class="level2">
-<h2 class="anchored" data-anchor-id="course-gis-orientation-10-min">2 · Course &amp; GIS Orientation <em>(10 min)</em></h2>
-<p>In one sentence, what is GIS as a way of thinking, not just software?</p>
-<p>________________________________________</p>
-<p>A management question from my discipline that is really a “where?” question.</p>
-<p>________________________________________</p>
-</section>
-<section id="the-week-ahead-5-min" class="level2">
-<h2 class="anchored" data-anchor-id="the-week-ahead-5-min">3 · The Week Ahead <em>(5 min)</em></h2>
-<p>New ideas this week: <em>Spatial Thinking</em>, the <em>Vector Data Model</em>, the <em>Raster Data Model</em>.</p>
-<p>________________________________________</p>
-<p>________________________________________</p>
-</section>
-<section id="application-discussion-10-min-may-vary-instructors-call" class="level2">
-<h2 class="anchored" data-anchor-id="application-discussion-10-min-may-vary-instructors-call">4 · Application Discussion <em>(10 min)</em> <em>(may vary; instructor’s call)</em></h2>
-<p>Read the prompt for <strong>your</strong> focus and jot a response; be ready to share.</p>
+<section id="weekly-arcgis-pro-tools-methods" class="level1">
+<h1>Weekly ArcGIS Pro Tools &amp; Methods</h1>
+<p>Tracks the ArcGIS Pro <strong>tools</strong> and the <strong>methods/concepts</strong> <em>first introduced</em> each week (not cumulative). Target software: <strong>ArcGIS Pro v3.7x</strong>.</p>
+<section id="notation-convention-applies-to-all-course-documents" class="level2">
+<h2 class="anchored" data-anchor-id="notation-convention-applies-to-all-course-documents">Notation Convention (Applies to All Course Documents)</h2>
 <ul>
-<li><strong>Forestry/Forest Management:</strong> As a new forestry student, how do you envision GIS being used to manage timberlands in the pine forests of the Southeast?</li>
-<li><strong>Wildlife Management:</strong> Why is a consistent file-naming convention important for a biologist tracking endangered-species sightings in the Everglades?</li>
-<li><strong>Fisheries Management:</strong> As a fisheries biologist studying a large reservoir, what “spatial data” might you collect, and how could GIS help you understand it?</li>
-<li><strong>Parks Recreation &amp; Tourism Management:</strong> For a manager at a Georgia Piedmont state park, how could GIS help manage visitor access or trail maintenance?</li>
+<li><strong>ArcGIS Pro tools</strong> are written in <code>ALL-CAPS INSIDE BACKTICKS</code>, e.g.&nbsp;<code>BUFFER</code>, <code>SELECT BY LOCATION</code>, <code>RASTER CALCULATOR</code>.</li>
+<li><strong>Methods and concepts</strong> (things you <em>do</em> or <em>understand</em>, not a specific tool) are written in <em>Proper-Case Italics</em>, e.g.&nbsp;<em>Digitizing</em>, <em>Attribute Query</em>, <em>Map Algebra</em>.</li>
 </ul>
-<p>________________________________________</p>
-<p>________________________________________</p>
-<p>________________________________________</p>
-<p>________________________________________</p>
 </section>
-<section id="lecture-what-gis-is-and-why-your-problems-are-spatial-15-min" class="level2">
-<h2 class="anchored" data-anchor-id="lecture-what-gis-is-and-why-your-problems-are-spatial-15-min">5 · Lecture: What GIS Is and Why Your Problems Are Spatial <em>(15 min)</em></h2>
-<ul>
-<li>GIS is data, software, methods, hardware, and people, used to ask and answer spatial questions.</li>
-</ul>
-<p>________________________________________</p>
-<ul>
-<li>Why every natural resource decision has a spatial component.</li>
-</ul>
-<p>________________________________________</p>
-<ul>
-<li>The five arcs (A to E): the one-line story of each.</li>
-</ul>
-<p>________________________________________</p>
-<p>________________________________________</p>
-<p><strong>Key terms:</strong> GIS · spatial data · arc</p>
+<section id="verification-note" class="level2">
+<h2 class="anchored" data-anchor-id="verification-note">Verification Note</h2>
+<p>Tool names below are standard ArcGIS Pro geoprocessing tool names. <strong>Verify spelling, toolbox location, license level, and the <code>PAIRWISE</code> vs.&nbsp;classic variant against your v3.7x install</strong> before finalizing, these change across versions. Items marked <em>(ribbon/pane)</em> are interactive workflows on a ribbon or pane rather than a single geoprocessing tool.</p>
+<hr>
 </section>
-<section id="after-class-add-detail" class="level2">
-<h2 class="anchored" data-anchor-id="after-class-add-detail">After Class: Add Detail</h2>
-<blockquote class="blockquote">
-<p>From the assigned ESRI Training exercise and the eLC links, add one concrete example of GIS used in <em>your</em> discipline, and a definition of “spatial data” in your own words.</p>
-</blockquote>
-<p>________________________________________</p>
-<p>________________________________________</p>
-<div style="page-break-after: always;">
-
-</div>
+<section id="arc-a-build-a-base-you-can-trust" class="level2">
+<h2 class="anchored" data-anchor-id="arc-a-build-a-base-you-can-trust">Arc A: Build a Base You Can Trust</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 39%">
+<col style="width: 55%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Wk</th>
+<th>ArcGIS Pro tools (<code>ALL-CAPS</code>)</th>
+<th>Methods &amp; concepts (<em>Proper-Case italic</em>)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td><em>(none, project creation &amp; interface navigation)</em></td>
+<td><em>Spatial Thinking</em>, <em>Vector Data Model</em>, <em>Raster Data Model</em></td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td><em>(none, <code>SYMBOLOGY</code> pane &amp; <code>LAYOUT</code> view are ribbon/pane; <code>EXPORT LAYOUT</code>)</em></td>
+<td><em>Symbology</em> (<em>Categorized</em>, <em>Graduated</em>, <em>Unique Values</em>), <em>Map Layout</em>, <em>Cartographic Communication</em></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td><code>PROJECT</code>, <code>DEFINE PROJECTION</code></td>
+<td><em>Coordinate System Specification</em>, <em>Datum Transformation</em>, <em>Projection Selection</em></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td><code>CREATE FEATURES</code> <em>(editing, ribbon/pane)</em>, <code>GPX TO FEATURES</code>, <code>XY TABLE TO POINT</code>, <code>GEOREFERENCE</code> <em>(ribbon toolset)</em></td>
+<td><em>Digitizing</em>, <em>Vector Editing</em>, <em>GPS Data Collection</em> (<em>Static</em>, <em>Dynamic</em>), <em>Air-Photo Interpretation</em>, <em>Georeferencing</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
 </section>
+<section id="arc-b-ask-questions-of-your-data" class="level2">
+<h2 class="anchored" data-anchor-id="arc-b-ask-questions-of-your-data">Arc B: Ask Questions of Your Data</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 39%">
+<col style="width: 55%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Wk</th>
+<th>ArcGIS Pro tools (<code>ALL-CAPS</code>)</th>
+<th>Methods &amp; concepts (<em>Proper-Case italic</em>)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>5</td>
+<td><code>SELECT BY ATTRIBUTES</code> (<code>SELECT LAYER BY ATTRIBUTE</code>), <code>SELECT BY LOCATION</code> (<code>SELECT LAYER BY LOCATION</code>), <code>ADD JOIN</code>, <code>CALCULATE GEOMETRY</code>, <code>SUMMARY STATISTICS</code></td>
+<td><em>Attribute Query</em>, <em>Spatial Query</em>, <em>Table Join</em>, <em>Inventory Summary</em>, <em>Area Calculation</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
 </section>
-<section id="wednesday" class="level1">
-<h1>WEDNESDAY</h1>
-<section id="lecture-how-we-represent-the-world-the-two-data-models-20-min" class="level2">
-<h2 class="anchored" data-anchor-id="lecture-how-we-represent-the-world-the-two-data-models-20-min">1 · Lecture: How We Represent the World, the Two Data Models <em>(20 min)</em></h2>
-<ul>
-<li><em>Vector Data Model</em>: points, lines, polygons, each with an attribute table. One natural-resource example of each.</li>
-</ul>
-<p>________________________________________</p>
-<p>________________________________________</p>
-<ul>
-<li><em>Raster Data Model</em>: a grid of cells, one value each; <em>Spatial Resolution</em> and cell size are related; integer vs.&nbsp;floating-point vs.&nbsp;multiband.</li>
-</ul>
-<p>________________________________________</p>
-<p>________________________________________</p>
-<ul>
-<li>How do I decide whether a dataset should be vector or raster?</li>
-</ul>
-<p>________________________________________</p>
-<p><strong>Key terms:</strong> vector · raster · cell / resolution · attribute table</p>
+<section id="arc-c-where-should-something-happen-vector" class="level2">
+<h2 class="anchored" data-anchor-id="arc-c-where-should-something-happen-vector">Arc C: Where Should Something Happen? (Vector)</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 39%">
+<col style="width: 55%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Wk</th>
+<th>ArcGIS Pro tools (<code>ALL-CAPS</code>)</th>
+<th>Methods &amp; concepts (<em>Proper-Case italic</em>)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>6</td>
+<td><code>BUFFER</code> (<code>PAIRWISE BUFFER</code>), <code>CLIP</code> (<code>PAIRWISE CLIP</code>), <code>ERASE</code> (<code>PAIRWISE ERASE</code>)</td>
+<td><em>Proximity Analysis</em>, <em>Constraint Application</em>, <em>Feature Extraction</em>, <em>Dissolve</em></td>
+</tr>
+<tr class="even">
+<td>7</td>
+<td><code>INTERSECT</code> (<code>PAIRWISE INTERSECT</code>), <code>UNION</code>, <code>UPDATE</code></td>
+<td><em>Topological Overlay</em>, <em>Cross-Tabulation</em>, <em>Multi-Criteria Combination</em></td>
+</tr>
+<tr class="odd">
+<td>8</td>
+<td><code>MODELBUILDER</code> <em>(workflow documentation; optional)</em></td>
+<td><em>Workflow Decomposition</em>, <em>Problem-to-Workflow Translation</em>, <em>Analysis Verification</em>, <strong>Lecture Exam 1 (Wed)</strong></td>
+</tr>
+</tbody>
+</table>
+<hr>
 </section>
-<section id="getting-ready-for-lab-why-it-matters-10-min" class="level2">
-<h2 class="anchored" data-anchor-id="getting-ready-for-lab-why-it-matters-10-min">2 · Getting Ready for Lab: Why It Matters <em>(10 min)</em></h2>
-<p>What will getting set up (ESRI account and ArcGIS Pro) let me do, and why do it now?</p>
-<p>________________________________________</p>
-<p>________________________________________</p>
+<section id="arc-d-conditions-that-vary-across-the-land-raster" class="level2">
+<h2 class="anchored" data-anchor-id="arc-d-conditions-that-vary-across-the-land-raster">Arc D: Conditions That Vary Across the Land (Raster)</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 39%">
+<col style="width: 55%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Wk</th>
+<th>ArcGIS Pro tools (<code>ALL-CAPS</code>)</th>
+<th>Methods &amp; concepts (<em>Proper-Case italic</em>)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>9</td>
+<td><em>(none, raster display &amp; <code>RASTER PROPERTIES</code>; Spatial Analyst environment)</em></td>
+<td><em>Raster Data Model</em> (in depth), <em>Spatial Resolution</em>, <em>Cell Size Selection</em>, <strong>Lab Exam 1 (Wed/Thu)</strong></td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td><code>RECLASSIFY</code>, <code>EUCLIDEAN DISTANCE</code></td>
+<td><em>Reclassification</em>, <em>Distance Surface</em>, <em>Binary Suitability</em></td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td><code>SLOPE</code>, <code>ASPECT</code>, <code>HILLSHADE</code></td>
+<td><em>Terrain Analysis</em>, <em>Surface Derivatives</em></td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td><code>RASTER CALCULATOR</code>, <code>WEIGHTED OVERLAY</code></td>
+<td><em>Map Algebra</em>, <em>Weighted Overlay</em>, <em>Suitability Modeling</em></td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td><code>CLASSIFICATION WIZARD</code> <em>(Imagery ribbon)</em>, <code>CLASSIFY RASTER</code>, <code>TRAIN ... CLASSIFIER</code></td>
+<td><em>Image Interpretation</em>, <em>Supervised Classification</em>, <em>Unsupervised Classification</em>, <em>Change Detection</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
 </section>
-<section id="getting-ready-for-lab-steps-tools-10-min" class="level2">
-<h2 class="anchored" data-anchor-id="getting-ready-for-lab-steps-tools-10-min">3 · Getting Ready for Lab: Steps &amp; Tools <em>(10 min)</em></h2>
-<p>The setup steps and what I will meet in the interface: ESRI account, ArcGIS Pro access, training account; the project, map view, and Catalog.</p>
-<p>________________________________________</p>
-<p>________________________________________</p>
+<section id="arc-e-real-problems-mix-everything" class="level2">
+<h2 class="anchored" data-anchor-id="arc-e-real-problems-mix-everything">Arc E: Real Problems Mix Everything</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 39%">
+<col style="width: 55%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Wk</th>
+<th>ArcGIS Pro tools (<code>ALL-CAPS</code>)</th>
+<th>Methods &amp; concepts (<em>Proper-Case italic</em>)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>14</td>
+<td><code>FEATURE TO RASTER</code>, <code>POLYGON TO RASTER</code>, <code>RASTER TO POLYGON</code>, <code>EXTRACT BY MASK</code></td>
+<td><em>Data Model Conversion</em>, <em>Integrated Workflow</em>, <em>Scenario Analysis</em>, <strong>Lecture Exam 2 (Wed); Lab Exam 2 (Wed/Thu)</strong></td>
+</tr>
+<tr class="even">
+<td>15</td>
+<td><em>(Thanksgiving, no class)</em></td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td>16</td>
+<td><em>(none, synthesis &amp; course overview)</em></td>
+<td><em>Method Selection &amp; Sequencing</em>, <em>Synthesis</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
 </section>
-<section id="week-summary-10-min" class="level2">
-<h2 class="anchored" data-anchor-id="week-summary-10-min">4 · Week Summary <em>(10 min)</em></h2>
-<p>In your own words, the one thing to remember from Week 1:</p>
-<p>________________________________________</p>
-<p>________________________________________</p>
-<p>Questions I still have (bring to Monday):</p>
-<p>________________________________________</p>
-<p><strong>Deliverables:</strong> ESRI account and ArcGIS Pro access by the start of Week 2; first ESRI Training module before next Wednesday.</p>
-</section>
-<section id="after-class-add-detail-1" class="level2">
-<h2 class="anchored" data-anchor-id="after-class-add-detail-1">After Class: Add Detail</h2>
-<blockquote class="blockquote">
-<p>From the assigned ESRI Training exercise and the eLC links, add one dataset you would store as vector and one you would store as raster in your field, and note why.</p>
-</blockquote>
-<p>________________________________________</p>
-<p>________________________________________</p>
-</section>
-<section id="evening-review-checklist-second-pass" class="level2">
-<h2 class="anchored" data-anchor-id="evening-review-checklist-second-pass">Evening Review Checklist (Second Pass)</h2>
-<ul class="task-list">
-<li><label><input type="checkbox">Reread my in-class notes within 24 hours</label></li>
-<li><label><input type="checkbox">Added detail from the assigned ESRI Training exercise</label></li>
-<li><label><input type="checkbox">Added detail from the eLC web links</label></li>
-<li><label><input type="checkbox">Wrote my own one-sentence summary of the week</label></li>
-<li><label><input type="checkbox">Listed questions to ask on Monday</label></li>
-</ul>
+<section id="quick-alphabetical-tool-index" class="level2">
+<h2 class="anchored" data-anchor-id="quick-alphabetical-tool-index">Quick Alphabetical Tool Index</h2>
+<p>For fast lookup of where each tool first appears.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Tool</th>
+<th>First introduced</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>ADD JOIN</code></td>
+<td>Wk 5</td>
+</tr>
+<tr class="even">
+<td><code>ASPECT</code></td>
+<td>Wk 11</td>
+</tr>
+<tr class="odd">
+<td><code>BUFFER</code> / <code>PAIRWISE BUFFER</code></td>
+<td>Wk 6</td>
+</tr>
+<tr class="even">
+<td><code>CALCULATE GEOMETRY</code></td>
+<td>Wk 5</td>
+</tr>
+<tr class="odd">
+<td><code>CLASSIFICATION WIZARD</code> / <code>CLASSIFY RASTER</code></td>
+<td>Wk 13</td>
+</tr>
+<tr class="even">
+<td><code>CLIP</code> / <code>PAIRWISE CLIP</code></td>
+<td>Wk 6</td>
+</tr>
+<tr class="odd">
+<td><code>CREATE FEATURES</code></td>
+<td>Wk 4</td>
+</tr>
+<tr class="even">
+<td><code>DEFINE PROJECTION</code></td>
+<td>Wk 3</td>
+</tr>
+<tr class="odd">
+<td><code>ERASE</code> / <code>PAIRWISE ERASE</code></td>
+<td>Wk 6</td>
+</tr>
+<tr class="even">
+<td><code>EUCLIDEAN DISTANCE</code></td>
+<td>Wk 10</td>
+</tr>
+<tr class="odd">
+<td><code>EXTRACT BY MASK</code></td>
+<td>Wk 14</td>
+</tr>
+<tr class="even">
+<td><code>FEATURE TO RASTER</code></td>
+<td>Wk 14</td>
+</tr>
+<tr class="odd">
+<td><code>GEOREFERENCE</code></td>
+<td>Wk 4</td>
+</tr>
+<tr class="even">
+<td><code>GPX TO FEATURES</code></td>
+<td>Wk 4</td>
+</tr>
+<tr class="odd">
+<td><code>HILLSHADE</code></td>
+<td>Wk 11</td>
+</tr>
+<tr class="even">
+<td><code>INTERSECT</code> / <code>PAIRWISE INTERSECT</code></td>
+<td>Wk 7</td>
+</tr>
+<tr class="odd">
+<td><code>MODELBUILDER</code></td>
+<td>Wk 8</td>
+</tr>
+<tr class="even">
+<td><code>POLYGON TO RASTER</code></td>
+<td>Wk 14</td>
+</tr>
+<tr class="odd">
+<td><code>PROJECT</code></td>
+<td>Wk 3</td>
+</tr>
+<tr class="even">
+<td><code>RASTER CALCULATOR</code></td>
+<td>Wk 12</td>
+</tr>
+<tr class="odd">
+<td><code>RASTER TO POLYGON</code></td>
+<td>Wk 14</td>
+</tr>
+<tr class="even">
+<td><code>RECLASSIFY</code></td>
+<td>Wk 10</td>
+</tr>
+<tr class="odd">
+<td><code>SELECT BY ATTRIBUTES</code></td>
+<td>Wk 5</td>
+</tr>
+<tr class="even">
+<td><code>SELECT BY LOCATION</code></td>
+<td>Wk 5</td>
+</tr>
+<tr class="odd">
+<td><code>SLOPE</code></td>
+<td>Wk 11</td>
+</tr>
+<tr class="even">
+<td><code>SUMMARY STATISTICS</code></td>
+<td>Wk 5</td>
+</tr>
+<tr class="odd">
+<td><code>UNION</code></td>
+<td>Wk 7</td>
+</tr>
+<tr class="even">
+<td><code>UPDATE</code></td>
+<td>Wk 7</td>
+</tr>
+<tr class="odd">
+<td><code>WEIGHTED OVERLAY</code></td>
+<td>Wk 12</td>
+</tr>
+<tr class="even">
+<td><code>XY TABLE TO POINT</code></td>
+<td>Wk 4</td>
+</tr>
+</tbody>
+</table>
 
 
 </section>

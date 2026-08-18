@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-221fb94c3ec07aa7e68c2d5abc4fc18e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-d63a2c9c8df14b07662b36303925c8cc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -97,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
+<span class="menu-text">home</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -160,35 +160,38 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="week-2---telling-the-spatial-story" class="level1">
 <h1>Week 2 - Telling the Spatial Story</h1>
-<p><strong>Arc A: Build a base you can trust.</strong> Two 50-minute lectures (Mon &amp; Wed). Map communication is taught early, deliberately, so students can present every subsequent analysis credibly. The theme: a map is an argument, and design determines whether the argument is believed.</p>
+<p><strong>Arc A: Build a base you can trust.</strong> Two 50-minute lectures (Mon &amp; Wed). Map communication is deliberate. The theme: a map is an argument, and design determines whether the argument is believed.</p>
 <p><em>Notation: ArcGIS Pro tools appear as <code>ALL-CAPS</code>; methods and concepts as </em>Proper-Case italics<em>.</em></p>
 <hr>
 <section id="monday-symbology-making-attributes-visible" class="level2">
 <h2 class="anchored" data-anchor-id="monday-symbology-making-attributes-visible">Monday: <em>Symbology</em>: Making Attributes Visible</h2>
-<p><strong>Learning objectives.</strong> Students can (1) match a <em>Symbology</em> method to a data type, (2) explain how a symbology choice changes the story a map tells, and (3) avoid the common misreadings caused by poor symbol choices.</p>
+<p><strong>Learning objectives.</strong> Students can (1) match a <em>Symbology</em> method to a data type, (2) explain how a symbology choice changes the story a map tells, and (3) avoid the common mis-readings caused by poor symbol choices.</p>
 <p><strong>Session outline (~50 min).</strong></p>
 <ul>
-<li><em>(0–10) Why symbology is analysis, not decoration.</em> Same data, two symbol schemes, two different conclusions. Set up the responsibility that comes with representation.</li>
-<li><em>(10–30) The main methods.</em> <em>Single Symbol</em> (location only); <em>Categorized</em> / <em>Unique Values</em> (qualitative classes, species, ownership, cover type); <em>Graduated</em> (quantitative, age, basal area, density) and the effect of classification method and class breaks. Tie each to a data type from Week 1’s attribute tables.</li>
+<li><em>(0–10) Why symbology is analysis, not decoration.</em> Same data, two symbol schemes, two different conclusions.</li>
+<li><em>(10–30) The main methods.</em>
+<ul>
+<li><em>Single Symbol</em> (location only);</li>
+<li><em>Categorized</em> / <em>Unique Values</em> (qualitative classes, species, ownership, cover type);</li>
+<li><em>Graduated</em> (quantitative, age, basal area, density) and the effect of classification method and class breaks.</li>
+</ul></li>
 <li><em>(30–45) Choosing well.</em> Color for categories vs.&nbsp;sequences; number of classes; when a choropleth misleads (raw counts vs.&nbsp;normalized rates); accessibility of color choices.</li>
-<li><em>(45–50) Setup for Wednesday.</em> A well-symbolized layer still isn’t a finished map, preview <em>Map Layout</em>.</li>
+<li><em>(45–50) Setup for Wednesday.</em> A well-symbolized layer still isn’t a finished map (<em>Map Layout</em>).</li>
 </ul>
-<p><strong>Framing to emphasize.</strong> Landowners and stakeholders act on the map, not the attribute table. <em>Symbology</em> is where the data becomes a decision.</p>
-<p><em>Tools introduced:</em> none, the <code>SYMBOLOGY</code> pane is a ribbon/pane workflow, not a geoprocessing tool. <em>Methods/concepts introduced:</em> <em>Symbology</em> (<em>Categorized</em>, <em>Graduated</em>, <em>Unique Values</em>), <em>Cartographic Communication</em>.</p>
+<p><em>Tools introduced:</em> the <code>SYMBOLOGY</code> pane is a ribbon/pane workflow, not a geoprocessing tool. <em>Methods/concepts introduced:</em> <em>Symbology</em> (<em>Categorized</em>, <em>Graduated</em>, <em>Unique Values</em>), <em>Cartographic Communication</em>.</p>
 <hr>
 </section>
 <section id="wednesday-map-layout-the-anatomy-of-a-credible-map" class="level2">
 <h2 class="anchored" data-anchor-id="wednesday-map-layout-the-anatomy-of-a-credible-map">Wednesday: <em>Map Layout</em>: The Anatomy of a Credible Map</h2>
-<p><strong>Learning objectives.</strong> Students can (1) list the essential map elements and justify each, (2) apply visual hierarchy so the main message reads first, and (3) export a publication-ready map with complete source information.</p>
+<p><strong>Learning objectives.</strong> Students can (1) list the essential map elements and their purposes, (2) understand the visual hierarchy so the main message reads first, and (3) export a publication-ready map with complete source information.</p>
 <p><strong>Session outline (~50 min).</strong></p>
 <ul>
-<li><em>(0–15) The essential elements.</em> Title, legend, scale bar, north arrow, and, emphasized, data source and coordinate system metadata. Why each exists and what a missing element costs the reader’s trust.</li>
-<li><em>(15–30) Composition and hierarchy.</em> Guiding the eye: figure-ground, balance, what to enlarge and what to subordinate; the difference between a map made for a report page and one made for a wall.</li>
-<li><em>(30–42) Credibility and honesty.</em> Scale and audience; how framing, extent, and class breaks can distort; the professional obligation to represent uncertainty and cite sources.</li>
-<li><em>(42–50) Export and delivery.</em> Formats and resolution for print vs.&nbsp;screen via <code>EXPORT LAYOUT</code>; naming and file organization consistent with the course conventions.</li>
+<li><em>(0–15) The essential elements.</em> Title, legend, scale bar, north arrow, neat collar, metadata (name, date, information about data sources). Why each exists and what a missing element costs the reader’s trust.</li>
+<li><em>(15–30) Composition and hierarchy.</em> the difference between a map made for a report page and one made for a wall.</li>
+<li><em>(30–42) Credibility and honesty.</em> Scale and audience; how framing, extent, and class breaks can distort.</li>
+<li><em>(42–50) Export and delivery.</em> Formats and resolution for print vs.&nbsp;screen via <code>EXPORT LAYOUT</code>; naming and file organization consistent with global naming conventions.</li>
 </ul>
-<p><strong>Framing to emphasize.</strong> Good design makes the spatial story clear; poor design obscures it and undermines the analyst’s credibility. This is the deliverable skill every arc ends on.</p>
-<p><strong>Connections.</strong> Every arc culminates in a map or summary; the elements introduced here are expected on all lab deliverables and exams.</p>
+<p><strong>Framing to emphasize.</strong> Good design makes the spatial story clear; poor design obscures it and undermines the analyst’s credibility.</p>
 <p><em>Tools introduced:</em> <code>EXPORT LAYOUT</code> (the <code>LAYOUT</code> view itself is a ribbon/pane workflow). <em>Methods/concepts introduced:</em> <em>Map Layout</em>, <em>Cartographic Communication</em>.</p>
 
 
