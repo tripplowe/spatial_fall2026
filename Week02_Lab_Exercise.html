@@ -1,0 +1,1235 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>week02_lab_exercise – Course Lectures</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-d63a2c9c8df14b07662b36303925c8cc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Course Lectures</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#fanr-3800-week-02-lab-exercise" id="toc-fanr-3800-week-02-lab-exercise" class="nav-link active" data-scroll-target="#fanr-3800-week-02-lab-exercise">FANR 3800 – Week 02 Lab Exercise</a>
+  <ul class="collapse">
+  <li><a href="#important-note-about-videos-and-this-lab" id="toc-important-note-about-videos-and-this-lab" class="nav-link" data-scroll-target="#important-note-about-videos-and-this-lab">IMPORTANT NOTE ABOUT VIDEOS AND THIS LAB</a></li>
+  <li><a href="#this-weeks-lab-deliverables" id="toc-this-weeks-lab-deliverables" class="nav-link" data-scroll-target="#this-weeks-lab-deliverables">1. THIS WEEK’S LAB DELIVERABLES</a></li>
+  <li><a href="#purpose-and-background" id="toc-purpose-and-background" class="nav-link" data-scroll-target="#purpose-and-background">2. PURPOSE AND BACKGROUND</a>
+  <ul class="collapse">
+  <li><a href="#what-this-lab-is-about" id="toc-what-this-lab-is-about" class="nav-link" data-scroll-target="#what-this-lab-is-about">2.1 What this lab is about</a></li>
+  <li><a href="#the-task" id="toc-the-task" class="nav-link" data-scroll-target="#the-task">2.2 The task</a></li>
+  <li><a href="#required-map-elements" id="toc-required-map-elements" class="nav-link" data-scroll-target="#required-map-elements">2.3 Required map elements</a></li>
+  </ul></li>
+  <li><a href="#tools-and-workflows-practiced-this-week" id="toc-tools-and-workflows-practiced-this-week" class="nav-link" data-scroll-target="#tools-and-workflows-practiced-this-week">3. TOOLS AND WORKFLOWS PRACTICED THIS WEEK</a>
+  <ul class="collapse">
+  <li><a href="#project-organization-file-management" id="toc-project-organization-file-management" class="nav-link" data-scroll-target="#project-organization-file-management">3.1 Project Organization &amp; File Management</a></li>
+  <li><a href="#arcgis-pro-interface-fundamentals" id="toc-arcgis-pro-interface-fundamentals" class="nav-link" data-scroll-target="#arcgis-pro-interface-fundamentals">3.2 ArcGIS Pro Interface Fundamentals</a></li>
+  <li><a href="#data-discovery-and-loading" id="toc-data-discovery-and-loading" class="nav-link" data-scroll-target="#data-discovery-and-loading">3.3 Data Discovery and Loading</a></li>
+  <li><a href="#layer-management" id="toc-layer-management" class="nav-link" data-scroll-target="#layer-management">3.4 Layer Management</a></li>
+  <li><a href="#attribute-driven-symbolization" id="toc-attribute-driven-symbolization" class="nav-link" data-scroll-target="#attribute-driven-symbolization">3.5 Attribute-Driven Symbolization</a></li>
+  <li><a href="#map-layout-and-design" id="toc-map-layout-and-design" class="nav-link" data-scroll-target="#map-layout-and-design">3.6 Map Layout and Design</a></li>
+  <li><a href="#map-export-and-product-delivery" id="toc-map-export-and-product-delivery" class="nav-link" data-scroll-target="#map-export-and-product-delivery">3.7 Map Export and Product Delivery</a></li>
+  </ul></li>
+  <li><a href="#lab-instructions" id="toc-lab-instructions" class="nav-link" data-scroll-target="#lab-instructions">4. LAB INSTRUCTIONS</a>
+  <ul class="collapse">
+  <li><a href="#step-1-review-map-design-principles" id="toc-step-1-review-map-design-principles" class="nav-link" data-scroll-target="#step-1-review-map-design-principles">STEP 1 – Review map design principles</a></li>
+  <li><a href="#step-2-set-up-your-workspace-and-download-data" id="toc-step-2-set-up-your-workspace-and-download-data" class="nav-link" data-scroll-target="#step-2-set-up-your-workspace-and-download-data">STEP 2 – Set up your workspace and download data</a></li>
+  <li><a href="#step-3-create-a-new-arcgis-pro-project" id="toc-step-3-create-a-new-arcgis-pro-project" class="nav-link" data-scroll-target="#step-3-create-a-new-arcgis-pro-project">STEP 3 – Create a new ArcGIS Pro project</a></li>
+  <li><a href="#step-4-symbolize-your-layers" id="toc-step-4-symbolize-your-layers" class="nav-link" data-scroll-target="#step-4-symbolize-your-layers">STEP 4 – Symbolize your layers</a></li>
+  <li><a href="#step-5-create-your-map-layout" id="toc-step-5-create-your-map-layout" class="nav-link" data-scroll-target="#step-5-create-your-map-layout">STEP 5 – Create your map layout</a></li>
+  <li><a href="#step-6-export-your-map-and-submit-deliverables" id="toc-step-6-export-your-map-and-submit-deliverables" class="nav-link" data-scroll-target="#step-6-export-your-map-and-submit-deliverables">STEP 6 – Export your map and submit deliverables</a></li>
+  </ul></li>
+  <li><a href="#key-gis-workflows-practiced-this-week" id="toc-key-gis-workflows-practiced-this-week" class="nav-link" data-scroll-target="#key-gis-workflows-practiced-this-week">5. KEY GIS WORKFLOWS PRACTICED THIS WEEK</a></li>
+  <li><a href="#final-deliverables-checklist" id="toc-final-deliverables-checklist" class="nav-link" data-scroll-target="#final-deliverables-checklist">6. FINAL DELIVERABLES CHECKLIST</a>
+  <ul class="collapse">
+  <li><a href="#required-uploads" id="toc-required-uploads" class="nav-link" data-scroll-target="#required-uploads">6.1 Required uploads</a></li>
+  <li><a href="#what-not-to-submit" id="toc-what-not-to-submit" class="nav-link" data-scroll-target="#what-not-to-submit">6.2 What NOT to submit</a></li>
+  </ul></li>
+  <li><a href="#appendix-reference-map" id="toc-appendix-reference-map" class="nav-link" data-scroll-target="#appendix-reference-map">APPENDIX: REFERENCE MAP</a></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Week02_Lab_Exercise.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="Week02_Lab_Exercise.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section id="fanr-3800-week-02-lab-exercise" class="level1">
+<h1>FANR 3800 – Week 02 Lab Exercise</h1>
+<p><strong>My First Map: BF Grant Forest</strong></p>
+<p><strong>ArcGIS Pro 3.7</strong></p>
+<hr>
+<section id="important-note-about-videos-and-this-lab" class="level2">
+<h2 class="anchored" data-anchor-id="important-note-about-videos-and-this-lab">IMPORTANT NOTE ABOUT VIDEOS AND THIS LAB</h2>
+<p>ELC videos demonstrate example workflows (e.g., symbolizing data, creating a project workspace). They are not step-by-step instructions for this specific lab. The videos may use different datasets or slightly different menu paths than what you see below. Follow the instructions in this document using the lab data provided on eLC.</p>
+<p>Focus on the workflow, not on matching every button click exactly. The examples in the videos show you the general approach and logic - your job is to adapt that logic to your own data and achieve the same map structure and design.</p>
+<blockquote class="blockquote">
+<p><strong>Note:</strong> This lab is designed for <strong>ArcGIS Pro 3.7</strong>. Some steps or menu locations may differ in other versions. If you are using a different version, contact your instructor.</p>
+</blockquote>
+<hr>
+</section>
+<section id="this-weeks-lab-deliverables" class="level2">
+<h2 class="anchored" data-anchor-id="this-weeks-lab-deliverables">1. THIS WEEK’S LAB DELIVERABLES</h2>
+<p>Upload the following <strong>three items</strong> to the <em>Week 02</em> assignment folder in eLC:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Item</th>
+<th>Description</th>
+<th>Grade Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>ESRI Training Certificate</strong></td>
+<td><em>Introduction to Spatial Data</em> completion certificate (due by <strong>Wednesday by 8:40AM</strong>)</td>
+<td>50%</td>
+</tr>
+<tr class="even">
+<td><strong>Lab Map (JPEG)</strong></td>
+<td>Week 02 <em>My First Map</em> exported JPEG matching the BF Grant Forest example layout (due by <strong>Sunday at 11:59 PM</strong>)</td>
+<td>40%</td>
+</tr>
+<tr class="odd">
+<td><strong>Training Screenshot</strong></td>
+<td>Screenshot of the map you create while working through the <em>Creating a Map Layout</em> ESRI Training module (due by <strong>Sunday at 11:59 PM</strong>)</td>
+<td>10%</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="purpose-and-background" class="level2">
+<h2 class="anchored" data-anchor-id="purpose-and-background">2. PURPOSE AND BACKGROUND</h2>
+<section id="what-this-lab-is-about" class="level3">
+<h3 class="anchored" data-anchor-id="what-this-lab-is-about">2.1 What this lab is about</h3>
+<p>This lab teaches you the complete workflow for creating a professional map in ArcGIS Pro - from organizing your workspace through data loading, symbolizing, layout design, and export. The emphasis is on understanding the why behind each step, not memorizing which exact button to click.</p>
+<p>By the end of this lab, you will have:</p>
+<ul>
+<li>Created a properly organized GIS project workspace with consistent naming conventions.</li>
+<li>Loaded spatial data (shapefiles) into ArcGIS Pro using multiple methods.</li>
+<li>Symbolized map layers thoughtfully, focusing on the <strong>CoverType</strong> attribute as the basis for your story.</li>
+<li>Designed and assembled a professional map layout with all required elements.</li>
+<li>Exported a finished map product for communication and sharing.</li>
+</ul>
+</section>
+<section id="the-task" class="level3">
+<h3 class="anchored" data-anchor-id="the-task">2.2 The task</h3>
+<p>Create a map of the BF Grant Forest that closely matches the symbology and layout of the example provided at the end of this document. The stands must be symbolized by the <strong>CoverType</strong> attribute.</p>
+</section>
+<section id="required-map-elements" class="level3">
+<h3 class="anchored" data-anchor-id="required-map-elements">2.3 Required map elements</h3>
+<p>Professional maps in this course include:</p>
+<ul>
+<li><strong>Map frame</strong> – the mapped area itself</li>
+<li><strong>Legend</strong> – explanation of symbols and colors</li>
+<li><strong>Scale bar and scale text</strong> – information about distance</li>
+<li><strong>North arrow</strong> – orientation</li>
+<li><strong>Neatlines / map collar</strong> – border around the map</li>
+<li><strong>Title</strong> – brief description of what the map shows</li>
+<li><strong>Metadata</strong> – author, data source, date, coordinate system (where applicable)</li>
+<li><strong>Inset map</strong> – (optional for large-extent maps; not required for this lab)</li>
+</ul>
+<blockquote class="blockquote">
+<p>You should have already completed the <em>Creating a Map Layout</em> ESRI Training module before this lab. If not, do so now, paying special attention to the map layout elements section. The module will show you where these elements live in the ArcGIS Pro interface.</p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="tools-and-workflows-practiced-this-week" class="level2">
+<h2 class="anchored" data-anchor-id="tools-and-workflows-practiced-this-week">3. TOOLS AND WORKFLOWS PRACTICED THIS WEEK</h2>
+<p>This lab reinforces the following essential GIS practices:</p>
+<section id="project-organization-file-management" class="level3">
+<h3 class="anchored" data-anchor-id="project-organization-file-management">3.1 Project Organization &amp; File Management</h3>
+<ul>
+<li>Creating and naming a course working directory (<code>FANR3800L</code>) and weekly subfolders (<code>Week02</code>).</li>
+<li>Establishing and following GIS-friendly file naming conventions (letters, numbers, underscores only; no spaces).</li>
+<li><strong>Why this matters:</strong> Reproducible, organized projects are easier to share, archive, and adapt for future work.</li>
+</ul>
+</section>
+<section id="arcgis-pro-interface-fundamentals" class="level3">
+<h3 class="anchored" data-anchor-id="arcgis-pro-interface-fundamentals">3.2 ArcGIS Pro Interface Fundamentals</h3>
+<ul>
+<li>Navigating the Ribbon, Contents pane, Map canvas, and Catalog pane.</li>
+<li>Understanding what each pane does and how they work together.</li>
+<li><strong>Why this matters:</strong> Knowing the interface helps you find tools quickly and understand how ArcGIS is organized.</li>
+</ul>
+</section>
+<section id="data-discovery-and-loading" class="level3">
+<h3 class="anchored" data-anchor-id="data-discovery-and-loading">3.3 Data Discovery and Loading</h3>
+<ul>
+<li>Locating shapefiles in the project Catalog.</li>
+<li>Adding data to a map using multiple methods (drag-and-drop, Add Data from Ribbon, Add Data from Contents pane).</li>
+<li>Establishing folder connections for efficient data access.</li>
+<li><strong>Why this matters:</strong> Different contexts call for different methods; flexibility helps you work efficiently.</li>
+</ul>
+</section>
+<section id="layer-management" class="level3">
+<h3 class="anchored" data-anchor-id="layer-management">3.4 Layer Management</h3>
+<ul>
+<li>Understanding drawing order (layers stack from top to bottom).</li>
+<li>Managing layer visibility with checkboxes.</li>
+<li>Rearranging layers so important features are visible and unobstructed.</li>
+<li><strong>Why this matters:</strong> Layer order and visibility are critical for clear, readable maps.</li>
+</ul>
+</section>
+<section id="attribute-driven-symbolization" class="level3">
+<h3 class="anchored" data-anchor-id="attribute-driven-symbolization">3.5 Attribute-Driven Symbolization</h3>
+<ul>
+<li>Examining attribute tables to identify fields suitable for mapping.</li>
+<li>Applying <strong>Unique Values</strong> symbology based on a chosen field (in this case, <strong>CoverType</strong>).</li>
+<li>Following symbology conventions (roads = black/gray, streams = blue, features = visible).</li>
+<li>Understanding polygon fill vs.&nbsp;outline symbolization targets.</li>
+<li><strong>Why this matters:</strong> Symbolizing by attribute tells a visual story about your data; it connects the data to the map design.</li>
+</ul>
+</section>
+<section id="map-layout-and-design" class="level3">
+<h3 class="anchored" data-anchor-id="map-layout-and-design">3.6 Map Layout and Design</h3>
+<ul>
+<li>Creating a new layout (standard 8.5” x 11” page).</li>
+<li>Placing a map frame and setting an appropriate extent using the Activate/Close Activation workflow.</li>
+<li>Inserting and positioning map elements (legend, title, scale, north arrow, neatlines, metadata).</li>
+<li>Cleaning up legend labels and organizing them logically.</li>
+<li>Using layout guides and smart snapping for professional alignment.</li>
+<li><strong>Why this matters:</strong> A well-designed layout communicates information clearly and follows cartographic best practices.</li>
+</ul>
+</section>
+<section id="map-export-and-product-delivery" class="level3">
+<h3 class="anchored" data-anchor-id="map-export-and-product-delivery">3.7 Map Export and Product Delivery</h3>
+<ul>
+<li>Exporting a layout as a JPEG using a standardized file naming scheme.</li>
+<li>Creating a finished product suitable for sharing with colleagues or managers.</li>
+<li><strong>Why this matters:</strong> Exporting is how maps leave ArcGIS and enter the real world of reports, presentations, and decisions.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="lab-instructions" class="level2">
+<h2 class="anchored" data-anchor-id="lab-instructions">4. LAB INSTRUCTIONS</h2>
+<p>Follow these steps in order. Save your project frequently (&lt;CTRL-S&gt;) (after each major step).</p>
+<hr>
+<section id="step-1-review-map-design-principles" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-review-map-design-principles">STEP 1 – Review map design principles</h3>
+<p>Before you start clicking buttons, pause and think about why each map element matters.</p>
+<p><strong>Discussion points to consider:</strong></p>
+<ul>
+<li>What is the purpose of a legend? How does it help someone who hasn’t seen your data before?</li>
+<li>Why does a scale bar matter? In what situations would someone need to know distances on your map?</li>
+<li>What does a north arrow tell you? Why not just assume north is “up”?</li>
+<li>What should metadata include? Why is it important to know the data source and author?</li>
+</ul>
+<blockquote class="blockquote">
+<p>You have already worked through the <em>Creating a Map Layout</em> ESRI Training module. If you haven’t, do that now.</p>
+</blockquote>
+<hr>
+</section>
+<section id="step-2-set-up-your-workspace-and-download-data" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-set-up-your-workspace-and-download-data">STEP 2 – Set up your workspace and download data</h3>
+<section id="create-your-folder-structure" class="level4">
+<h4 class="anchored" data-anchor-id="create-your-folder-structure">2.1 Create your folder structure</h4>
+<p>Establish a consistent folder structure where you will keep all GIS projects and data for this course.</p>
+<p><strong>Global naming conventions (you will see these on exams):</strong></p>
+<ul>
+<li>Use only lowercase letters (<code>a–z</code>), numbers (<code>0–9</code>), and underscores (<code>_</code>).</li>
+<li>No spaces or special characters: <code>! @ # $ % ^ &amp; * ( ) - . , \ ? /</code></li>
+<li>Names must start with a letter.</li>
+<li>Keep names short but meaningful:
+<ul>
+<li>✓ <code>Forest_Boundary</code></li>
+<li>✗ <code>try1</code>, <code>test_file2</code>, <code>My Map Final FINAL v3</code></li>
+</ul></li>
+</ul>
+<p><strong>Create your folders:</strong></p>
+<ol type="1">
+<li>Use File Explorer, navigate to the Documents and then create a new folder named <code>FANR3800L</code>. This is your master Spatial workspace where you will save your work each week.</li>
+<li>Still in File Explorer, create a new sub-folder named <code>Week02</code> for this week’s lab exercise. Next week you will create a <code>Week03</code> folder for the week 3 exercise.</li>
+</ol>
+<p><strong>See the STEP 0 - File Explorer create your workspace video on eLC for a visual walkthrough.</strong></p>
+</section>
+<section id="download-and-extract-the-lab-data" class="level4">
+<h4 class="anchored" data-anchor-id="download-and-extract-the-lab-data">2.2 Download and extract the lab data</h4>
+<ol type="1">
+<li>Go to eLC → <strong>Week 02 – Lab</strong> folder.</li>
+<li>Download <code>Week02_Lab_Data.zip</code> (or similar file name).</li>
+<li>Downloads default to the Downloads folder. Use the File Explorer to copy the zipped file over to your <code>Week02</code> folder.</li>
+<li>Extract/unzip the file:
+<ul>
+<li>In File Explorer: Right-click on the zipped file → <strong>Extract All</strong> (or 7-Zip → Extract All if available).</li>
+</ul></li>
+</ol>
+<p>After extraction, your <code>Week02</code> folder should contain a subfolder called <code>BFGrant</code> with shapefiles inside (<code>.shp</code>, <code>.dbf</code>, <code>.shx</code>, etc.).</p>
+<p><strong>See the STEP 2 video on eLC for a visual walkthrough.</strong></p>
+<hr>
+</section>
+</section>
+<section id="step-3-create-a-new-arcgis-pro-project" class="level3">
+<h3 class="anchored" data-anchor-id="step-3-create-a-new-arcgis-pro-project">STEP 3 – Create a new ArcGIS Pro project</h3>
+<section id="launch-arcgis-pro-and-create-a-new-map" class="level4">
+<h4 class="anchored" data-anchor-id="launch-arcgis-pro-and-create-a-new-map">3.1 Launch ArcGIS Pro and create a new map</h4>
+<ol type="1">
+<li>Open <strong>ArcGIS Pro</strong> (click the application icon on your desktop or start menu).</li>
+<li>Under <strong>New</strong>, click the <strong>Map</strong> template.</li>
+<li>In the <em>Create a New Map</em> dialog:
+<ul>
+<li><strong>Name:</strong> Type something meaningful, e.g., <code>Week2Lab</code>.</li>
+<li><strong>Location:</strong> Set to your <code>Week02</code> folder (use the file/browse button to navigate to this week’s lab folder - <em>This PC&gt;Documents&gt;fanr3800l&gt;week02</em>).</li>
+<li><strong>Uncheck the box labeled “Create a new folder for this project.”</strong></li>
+<li>Click <strong>OK</strong>.</li>
+</ul></li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Week02_image-1.png" class="img-fluid figure-img"></p>
+<figcaption>ArcGIS Pro New Project Dialog</figcaption>
+</figure>
+</div>
+<p>ArcGIS Pro will open with a blank map.</p>
+</section>
+<section id="explore-the-interface" class="level4">
+<h4 class="anchored" data-anchor-id="explore-the-interface">3.2 Explore the interface</h4>
+<p>Take a moment to locate and understand these key areas:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Area</th>
+<th>Location</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Ribbon</strong></td>
+<td>Top of window</td>
+<td>Menus and tools (like File, Edit, Map, Insert, etc.)</td>
+</tr>
+<tr class="even">
+<td><strong>Contents pane</strong></td>
+<td>Left side</td>
+<td>Lists your map layers and controls their visibility/order</td>
+</tr>
+<tr class="odd">
+<td><strong>Map canvas</strong></td>
+<td>Center</td>
+<td>Where you see and interact with your mapped data</td>
+</tr>
+<tr class="even">
+<td><strong>Catalog pane</strong></td>
+<td>Right side (tab)</td>
+<td>Browser for folders, files, and project resources</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="locate-your-data-in-the-catalog" class="level4">
+<h4 class="anchored" data-anchor-id="locate-your-data-in-the-catalog">3.3 Locate your data in the Catalog</h4>
+<ol type="1">
+<li>Click the <strong>Catalog</strong> tab (right side, if not already visible).</li>
+<li>Expand <strong>Folders</strong> by clicking the arrow next to it.</li>
+<li>Navigate to your project folder: expand <code>Week2Lab</code> (or your project name).</li>
+<li>Expand the <code>BFGrant</code> folder - this is where your shapefiles are stored.</li>
+</ol>
+<p>You should see files like: - <code>stands.shp</code> - <code>roads.shp</code> - <code>streams.shp</code> - <code>nests.shp</code></p>
+</section>
+<section id="add-data-to-your-map" class="level4">
+<h4 class="anchored" data-anchor-id="add-data-to-your-map">3.4 Add data to your map</h4>
+<p><strong>Choose one of the three methods below (or try multiple):</strong></p>
+<p><strong>Method A: Drag and drop</strong> (Most efficient in ArcGIS Pro 3.7) - In the <strong>Catalog</strong> pane, find your <code>.shp</code> files under <code>BFGrant</code>. - Drag and drop each one onto the map canvas.</p>
+<p><strong>Method B: Add Data from the Ribbon</strong> (Most discoverable for new users) - On the <strong>Map</strong> ribbon tab, click the <strong>+</strong> symbol next to “Add Data.” - In the dialog, navigate to <code>Folder &gt; Week2Lab &gt; BFGrant</code>. - Select the shapefiles you want and click <strong>OK</strong>.</p>
+<p><strong>Method C: Add Data from the Contents pane</strong> (Most context-aware) - In the <strong>Contents</strong> pane, right-click the <strong>Map</strong> entry. - Click <strong>Add Data.</strong> - Navigate to <code>Week2Lab &gt; BFGrant</code> and select your shapefiles.</p>
+<blockquote class="blockquote">
+<p>You do not need to memorize all three methods. The goal is to see that ArcGIS offers multiple valid workflows. In future labs, pick whichever feels fastest or most intuitive to you.</p>
+</blockquote>
+<p><strong>SAVE YOUR PROJECT</strong> (Ctrl+S or File &gt; Save).</p>
+<p><strong>Checkpoint:</strong> Verify that all four shapefiles (stands, roads, streams, nests) are now listed in the Contents pane on the left.</p>
+<p><strong>See the STEP 3 video on eLC for a visual walkthrough.</strong></p>
+<hr>
+</section>
+</section>
+<section id="step-4-symbolize-your-layers" class="level3">
+<h3 class="anchored" data-anchor-id="step-4-symbolize-your-layers">STEP 4 – Symbolize your layers</h3>
+<p>Your goal this week is to recreate the <em>Week02_MapLayoutTemplate</em> map I’ve linked in this week’s eLC lab section, where stands are colored by <strong>CoverType</strong>, roads are black or gray, streams are blue, and nests are a simple, visible point symbol.</p>
+<section id="understand-drawing-order-and-visibility" class="level4">
+<h4 class="anchored" data-anchor-id="understand-drawing-order-and-visibility">4.1 Understand drawing order and visibility</h4>
+<p>Layers in the <strong>Contents</strong> pane are drawn in order from top to bottom.</p>
+<ul>
+<li><strong>To change layer order:</strong> Click and drag a layer up or down in the Contents pane.</li>
+<li><strong>To show/hide a layer:</strong> Check or uncheck the box next to its name.</li>
+</ul>
+<p>If a layer is checked but invisible on the map, it may be buried beneath other layers. Drag it to the top to see it.</p>
+<p><strong>Pro Tip:</strong> You can also lock a layer to prevent accidental reordering by right-clicking it in the Contents pane and selecting <strong>Lock.</strong></p>
+<blockquote class="blockquote">
+<p>Play with layer order and visibility to understand how they affect what you see on the map.</p>
+</blockquote>
+</section>
+<section id="apply-basic-symbology-roads-streams-nests" class="level4">
+<h4 class="anchored" data-anchor-id="apply-basic-symbology-roads-streams-nests">4.2 Apply basic symbology (roads, streams, nests)</h4>
+<ol type="1">
+<li>Right-click the <strong>roads</strong> layer in the <strong>Contents</strong> pane.</li>
+<li>Click <strong>Symbology.</strong></li>
+<li>The <strong>Symbology</strong> pane opens on the right (replace the Catalog pane).</li>
+<li>Under <strong>Primary Symbology:</strong>
+<ul>
+<li>Click the symbol (usually a colored line or shape).</li>
+<li>A gallery of symbols appears.</li>
+<li>Choose a line symbol appropriate for roads (e.g., a solid black or gray line).</li>
+<li>Click on the symbol to apply it, or click <strong>Apply</strong> at the bottom of the pane to see it on the map without closing the pane.</li>
+</ul></li>
+<li>Repeat for <strong>streams</strong> (choose a blue line) and <strong>nests</strong> (choose a simple point symbol that is easy to see).</li>
+</ol>
+<p><strong>Pro-tips:</strong></p>
+<ul>
+<li>To test your changes without closing the Symbology pane, click <strong>Apply</strong> instead of <strong>OK.</strong></li>
+<li>To quickly change a layer’s color, click the small colored symbol next to the layer name in the <strong>Contents</strong> pane.</li>
+<li>Note: For POLYGON features like stands, you will be choosing a fill color and outline. For LINE features like roads and streams, you are choosing a line color and thickness. The Symbology pane shows different options based on geometry type.</li>
+</ul>
+</section>
+<section id="symbolize-stands-by-covertype-unique-values" class="level4">
+<h4 class="anchored" data-anchor-id="symbolize-stands-by-covertype-unique-values">4.3 Symbolize stands by CoverType (unique values)</h4>
+<p>This is where you will apply the most sophisticated symbolization: mapping stands by the <strong>CoverType</strong> attribute.</p>
+<p><strong>4.3.1 Examine the stands attribute table</strong></p>
+<ol type="1">
+<li>Right-click the <strong>stands</strong> layer in the <strong>Contents</strong> pane.</li>
+<li>Click <strong>Attribute Table.</strong></li>
+<li>A table opens at the bottom of the screen showing all attributes (columns) for each stand (row).</li>
+<li>Scroll right to find the <strong>CoverType</strong> column. Note the values (e.g., Deciduous, Conifer, Mixed, etc.).</li>
+</ol>
+<blockquote class="blockquote">
+<p><strong>Conceptual checkpoint:</strong> Ask yourself: <em>Why is CoverType a good field to symbolize? What does it tell us about the forest?</em> This is more important than the colors you choose.</p>
+</blockquote>
+<p><strong>4.3.2 Apply Unique Values symbology</strong></p>
+<ol type="1">
+<li>Right-click the <strong>stands</strong> layer → <strong>Symbology.</strong></li>
+<li>Under <strong>Primary Symbology</strong>, click the dropdown that currently says <strong>Single Symbol.</strong></li>
+<li>Choose <strong>Unique Values.</strong></li>
+<li>A <strong>Field 1</strong> option appears. Set it to <strong>CoverType.</strong></li>
+<li>Click the <strong>Classes</strong> tab.</li>
+<li>A list of CoverType values will appear (e.g., Conifer, Deciduous, Mixed, Open).</li>
+<li>Each value will get a different color automatically. The symbology updates on your map.</li>
+</ol>
+<p><strong>CRITICAL STEP – Color Scheme Targeting (ArcGIS Pro 3.7):</strong></p>
+<ol start="8" type="1">
+<li><p>Change the <strong>Color Scheme</strong> to something appropriate for forest cover types (e.g., greens, with variation).</p>
+<p><strong>Important:</strong> In ArcGIS Pro 3.7, you must tell the software whether to apply colors to polygon fills, outlines, or both:</p>
+<ul>
+<li>Look for the <strong>Color Scheme Options</strong> button (⚙️ gear icon) located next to the <strong>Color Scheme</strong> dropdown.</li>
+<li>Click the gear icon to open the Color Scheme Options dialog.</li>
+<li>Select <strong>Apply to fill</strong> (this is the standard choice for forest cover type maps).</li>
+<li>Click <strong>OK</strong>.</li>
+</ul>
+<p>Your polygon stands should now display as filled, colored shapes representing different cover types. If your stands appear as thin colored lines only, you applied the colors to outlines instead. Repeat this step and select <strong>Apply to fill.</strong></p></li>
+</ol>
+<p><strong>4.3.3 Clean up your symbolization</strong></p>
+<ol type="1">
+<li>In the Symbology pane, go to the <strong>Classes</strong> tab.</li>
+<li>For each CoverType value, you can edit the <strong>Label</strong> (the name that will appear in the legend):
+<ul>
+<li>Double-click or click the label cell to edit it.</li>
+<li>Example: If the data says <code>pine</code>, you might label it <code>Pine (loblolly)</code> for clarity.</li>
+</ul></li>
+</ol>
+<blockquote class="blockquote">
+<p><strong>Note on “All Other Values”:</strong> At the bottom of the symbol class list, you may see an entry labeled <strong><all other="" values=""></all></strong> colored gray. This is a catch-all class that captures any stands with blank/NULL CoverType values or unexpected values not listed above. If all your stands appear in the main classes (Conifer, Deciduous, etc.) and none show as gray, you don’t need to worry about this. But if you see gray stands on your map, right-click the stands layer → <strong>Attribute Table</strong> and check those features’ CoverType values to diagnose data quality issues.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Use the attribute table and the example map at the end of this document to guide your labeling.</p>
+</blockquote>
+<p><strong>Pro Tip – Show Count:</strong> In the Symbology pane, click <strong>More</strong> and select <strong>Show count</strong> to display how many features belong to each cover type in your legend. This helps you understand feature distributions.</p>
+<p><strong>4.3.4 Turn off background imagery</strong></p>
+<ul>
+<li>In the <strong>Contents</strong> pane, find a layer called <strong>World Imagery</strong> (or similar basemap).</li>
+<li>Uncheck the box next to it to hide the satellite background.</li>
+<li>This makes your stand colors more prominent.</li>
+</ul>
+<p><strong>SAVE YOUR PROJECT</strong> (Ctrl+S).</p>
+<p><strong>See the STEP 4 video on eLC for a visual walkthrough.</strong></p>
+<hr>
+</section>
+</section>
+<section id="step-5-create-your-map-layout" class="level3">
+<h3 class="anchored" data-anchor-id="step-5-create-your-map-layout">STEP 5 – Create your map layout</h3>
+<p>A map layout is a designed page (like in PowerPoint) that includes your map plus the legend, scale, title, and other elements. This is what you will export as a finished product.</p>
+<section id="create-a-new-layout" class="level4">
+<h4 class="anchored" data-anchor-id="create-a-new-layout">5.1 Create a new layout</h4>
+<ol type="1">
+<li>Click the <strong>Insert</strong> ribbon tab at the top.</li>
+<li>Click <strong>New Layout.</strong></li>
+<li>Select <strong>8.5” × 11”</strong> (standard letter size in portrait).</li>
+</ol>
+<p>A new tab called <strong>Layout</strong> appears. You are now in the layout editor.</p>
+<p><strong>Professional Tip – Adding Guides:</strong></p>
+<p>To help you align your map frame, legend, and other elements professionally, add guides to the layout:</p>
+<ol type="1">
+<li>Right-click the ruler at the top of the layout.</li>
+<li>Click <strong>Add Multiple Guides.</strong></li>
+<li>Set <strong>Orientation</strong> to <strong>Both</strong> (adds horizontal and vertical lines).</li>
+<li>Set <strong>Placement</strong> to <strong>Offset from edge</strong> and <strong>Margin</strong> to <strong>0.25 in.</strong></li>
+<li>Click <strong>OK.</strong></li>
+</ol>
+<p>These blue dashed lines will help you snap elements to consistent margins. When you drag elements on the layout, you’ll see them snap to these guides and to each other (smart guides), making professional alignment easier.</p>
+</section>
+<section id="add-the-map-frame-your-mapped-area" class="level4">
+<h4 class="anchored" data-anchor-id="add-the-map-frame-your-mapped-area">5.2 Add the map frame (your mapped area)</h4>
+<ol type="1">
+<li>On the <strong>Insert</strong> ribbon, click <strong>Map Frame.</strong></li>
+<li>A dialog appears asking which map to use. Select <strong>Default Extent</strong> (or the name of your map).</li>
+<li>Move your mouse to the layout and draw a rectangle where you want the map to appear.
+<ul>
+<li>Leave room around the edges for legend, title, scale bar, and metadata.</li>
+<li>A good starting point is to leave approximately 2 inches on the right for a legend and approximately 1 inch at the bottom for scale/metadata.</li>
+</ul></li>
+</ol>
+</section>
+<section id="set-the-map-extent-zoom-level-activateclose-activation-workflow" class="level4">
+<h4 class="anchored" data-anchor-id="set-the-map-extent-zoom-level-activateclose-activation-workflow">5.3 Set the map extent (zoom level) – Activate/Close Activation Workflow</h4>
+<p>The map frame will show your data at a default zoom level. You likely want to zoom to your stands (the main feature of interest).</p>
+<p><strong>Important Change from Previous Versions:</strong> ArcGIS Pro 3.7 uses the Activate/Close Activation workflow rather than tab switching. This keeps everything in the layout context:</p>
+<ol type="1">
+<li><p>On your <strong>Layout</strong> tab, right-click the <strong>MAP FRAME</strong> (the white rectangle showing your map).</p></li>
+<li><p>Click <strong>Activate.</strong></p>
+<p>You’ll notice:</p>
+<ul>
+<li>Selection handles appear around the map frame</li>
+<li>The ribbon changes to show the <strong>Map</strong> tab with zoom/pan tools</li>
+<li>You’re now in “map editing mode” within the layout context</li>
+</ul></li>
+<li><p>In the <strong>Contents</strong> pane, right-click the <strong>stands</strong> layer and select <strong>Zoom to Layer.</strong></p>
+<p>The map data within the layout frame zooms to show just the stands.</p></li>
+<li><p>Use the pan and zoom tools on the ribbon to adjust the view as needed (e.g., zoom out slightly to show context with roads and streams).</p></li>
+<li><p>When you’re satisfied with the extent, right-click the map frame again and click <strong>Close Activation.</strong></p>
+<p>You’re back to layout editing mode and can now add legends, titles, etc.</p></li>
+</ol>
+<p><strong>Advantage:</strong> Everything happens in the layout view. You don’t lose context by switching tabs.</p>
+<blockquote class="blockquote">
+<p><strong>Optional:</strong> Experiment by zooming to other layers (roads, streams, nests) to see how the layout changes. This helps you understand the role of extent in map design.</p>
+</blockquote>
+<p><strong>SAVE YOUR PROJECT.</strong></p>
+</section>
+<section id="add-map-elements" class="level4">
+<h4 class="anchored" data-anchor-id="add-map-elements">5.4 Add map elements</h4>
+<p>On the <strong>Insert</strong> ribbon, you will find tools to add each element. Add them in any order; position them carefully on your layout.</p>
+<p><strong>5.4.1 Legend</strong></p>
+<ol type="1">
+<li>Click <strong>Insert → Legend.</strong></li>
+<li>Draw a box on your layout (usually on the right or bottom) where you want the legend.</li>
+<li>The legend appears automatically, listing all layers.</li>
+<li>To control which layers appear:
+<ul>
+<li>In the <strong>Contents</strong> pane, expand <strong>Layout</strong> (if not already expanded).</li>
+<li>Expand <strong>Legend</strong> (or the name of your legend).</li>
+<li>Expand <strong>Map Frame</strong> below it.</li>
+<li>You will see a list of layers under <strong>Map Frame</strong>. To add a layer to the legend, drag it up into the <strong>Legend</strong> section. To remove it, drag it out.</li>
+</ul></li>
+<li><strong>Clean up layer names:</strong>
+<ul>
+<li>The legend may show file names like <code>Bfg_roads</code> or <code>stands</code>. To make it more readable:</li>
+<li>Under <strong>Map Frame</strong> in the <strong>Contents</strong> pane, right-click each layer.</li>
+<li>Click <strong>Properties → Name</strong> and change it (e.g., <code>Bfg_roads</code> → <code>Roads</code>, <code>stands</code> → <code>Cover Type Stands</code>).</li>
+<li>The legend updates automatically.</li>
+</ul></li>
+<li><strong>Edit CoverType labels in the legend:</strong>
+<ul>
+<li>Go back to your <strong>Map</strong> tab.</li>
+<li>Right-click the <strong>stands</strong> layer → <strong>Symbology.</strong></li>
+<li>In the <strong>Classes</strong> tab, click each CoverType value and edit its <strong>Label</strong> to be more descriptive (e.g., <code>Conifer</code> instead of just the data code).</li>
+<li>Return to <strong>Layout</strong> tab. The legend updates.</li>
+</ul></li>
+<li><strong>Optional: Create a second legend</strong> if you want stands in one legend and other layers in another:
+<ul>
+<li>Insert another legend (Insert → Legend).</li>
+<li>In the <strong>Layout</strong> section of <strong>Contents</strong>, manage which layers appear in which legend by dragging them between legend entries.</li>
+</ul></li>
+</ol>
+<p><strong>Advanced Tip – Legend Fitting Strategies:</strong> If your legend is too long or doesn’t fit well on the page, you can adjust its fitting strategy. Right-click the legend in the Contents pane (under Layout), click <strong>Properties</strong>, and on the Element pane, look for <strong>Fitting Strategy.</strong> You can choose to flow legend items left-to-right, adjust columns, or auto-fit the legend to available space.</p>
+<p><strong>Advanced Tip – Legend Headings:</strong> To further organize your legend, you can group similar cover types under headings. In the Symbology pane, select multiple symbol classes (Ctrl+click), right-click, and choose <strong>Move to heading.</strong> This creates a collapsible section in the legend. (Optional for Week 2.)</p>
+<p><strong>Remember:</strong> If you turn off a symbol class in the Symbology pane (using the checkboxes), that class is hidden both on the map and in the legend. If you want a layer to appear on the map but not in the legend, use a different approach (e.g., copy the layer or use a separate legend layer).</p>
+<p><strong>5.4.2 Title</strong></p>
+<ol type="1">
+<li>On the <strong>Insert</strong> ribbon, find the <strong>Text</strong> tools (text box icon, usually on the left).</li>
+<li>Click the text box and draw a box at the top of your layout.</li>
+<li>Type a descriptive title (e.g., “BF Grant Forest Cover Types” or “Forest Stand Classification”).</li>
+<li>To format the title:
+<ul>
+<li>Right-click it → <strong>Properties</strong> (or look for an <strong>Element</strong> pane on the right).</li>
+<li>Adjust <strong>Font</strong>, <strong>Size</strong>, <strong>Color</strong>, and <strong>Background</strong> (border, fill).</li>
+</ul></li>
+</ol>
+<p><strong>5.4.3 Scale Bar</strong></p>
+<ol type="1">
+<li>On the <strong>Insert</strong> ribbon, click the arrow next to <strong>Scale Bar.</strong></li>
+<li>Choose a scale bar style (any simple one is fine).</li>
+<li>Draw it on your layout (bottom left or bottom right, below the map).</li>
+<li>Right-click the scale bar → <strong>Properties</strong> (or find it in the <strong>Layout Contents</strong> pane).</li>
+<li>Look for an option to set <strong>Map Units</strong> (e.g., feet, miles, meters).
+<ul>
+<li>To confirm the map units of your data, right-click the stands layer in the Contents pane, select <strong>Properties</strong>, and look at the <strong>Spatial Reference</strong> or <strong>Extent</strong> section. This shows you the native units of your data. If your data is in UTM (meters), the scale bar should be in meters or kilometers.</li>
+<li>For BF Grant, feet or meters is typical. Ask your instructor if unsure.</li>
+</ul></li>
+<li>Adjust text size under <strong>Text Symbol</strong> if it is hard to read.</li>
+</ol>
+<p><strong>5.4.4 Scale Text</strong></p>
+<ol type="1">
+<li>On the <strong>Insert</strong> ribbon, under <strong>Dynamic Text</strong>, click <strong>Scale.</strong></li>
+<li>Draw a small text box next to or below the scale bar.</li>
+<li>This box will automatically display the map’s scale ratio (e.g., “1:10,000”).</li>
+<li>Adjust font size if needed.</li>
+</ol>
+<p><strong>5.4.5 North Arrow</strong></p>
+<ol type="1">
+<li>On the <strong>Insert</strong> ribbon, click the arrow next to <strong>North Arrow.</strong></li>
+<li>Choose a simple arrow style.</li>
+<li>Draw it on your layout (typically upper right, or wherever it does not clutter the map).</li>
+</ol>
+<p><strong>5.4.6 Neatline / Map Collar (Border)</strong></p>
+<ol type="1">
+<li>On the <strong>Insert</strong> ribbon, find the <strong>Rectangle</strong> tool (usually grouped with other shape tools).</li>
+<li>Draw a rectangle around the entire layout to create a border.</li>
+<li>Right-click it → <strong>Properties</strong> to adjust the line color and thickness (a simple black line is standard).</li>
+</ol>
+<p><strong>5.4.7 Metadata Text Box</strong></p>
+<ol type="1">
+<li><p>Insert a text box (same as title; see 5.4.2).</p></li>
+<li><p>Draw it at the bottom or corner of your layout (a small area).</p></li>
+<li><p>Type your metadata. Use the following template as a guide:</p>
+<pre><code>Data Source: BF Grant Forest Database
+Author: [Your Name]
+Date: January 2026
+Course: FANR 3800
+Map Projection: [Specify if known, e.g., UTM Zone 10N, NAD 1983]</code></pre></li>
+<li><p>Adjust font size so it is readable but not dominant.</p></li>
+</ol>
+<p><strong>Standard Metadata Elements Required:</strong> - Author (your name) - Course Number (FANR 3800) - Data Source (BF Grant Forest Database) - Date (date created) - Coordinate System / Map Projection (if known)</p>
+<p><strong>See the STEP 5 video on eLC for a visual walkthrough.</strong></p>
+</section>
+<section id="final-layout-review" class="level4">
+<h4 class="anchored" data-anchor-id="final-layout-review">5.5 Final layout review</h4>
+<ul>
+<li>Step back and look at your layout as a whole. Is it clear? Are all elements readable?</li>
+<li>Can someone who has never seen this data understand what the map shows?</li>
+<li>Do the colors make sense for forest cover types?</li>
+<li>Is the legend easy to find and interpret?</li>
+<li><strong>Smart Guides Tip:</strong> As you drag elements on the layout, you’ll see blue dashed lines appear - these are smart guides helping you align with other elements. You can also enable a snap grid or ruler guides for more precise placement.</li>
+</ul>
+<p><strong>SAVE YOUR PROJECT</strong> (Ctrl+S).</p>
+<hr>
+</section>
+</section>
+<section id="step-6-export-your-map-and-submit-deliverables" class="level3">
+<h3 class="anchored" data-anchor-id="step-6-export-your-map-and-submit-deliverables">STEP 6 – Export your map and submit deliverables</h3>
+<section id="export-your-layout-as-a-jpeg" class="level4">
+<h4 class="anchored" data-anchor-id="export-your-layout-as-a-jpeg">6.1 Export your layout as a JPEG</h4>
+<ol type="1">
+<li>On the <strong>Layout</strong> tab, click the <strong>Share</strong> ribbon.</li>
+<li>Under <strong>Export</strong>, click the green <strong>Layout</strong> button (or similar export button).</li>
+<li>A dialog opens. Set:
+<ul>
+<li><strong>File Type:</strong> JPEG</li>
+<li><strong>Output Location:</strong> your <code>Week02</code> folder (use the folder icon to navigate).</li>
+<li><strong>File Name:</strong> <code>Week2Lab_YOURLASTNAME.jpg</code>
+<ul>
+<li>Example: <code>Week2Lab_Lowe.jpg</code></li>
+<li><strong>TODO (clarification):</strong> Confirm file naming convention with course policy. Is <code>Week2Lab_YOURLASTNAME.jpg</code> or <code>YOURLASTNAME_Week2Lab.jpg</code> preferred?</li>
+</ul></li>
+<li><strong>Resolution (optional):</strong> Default resolution (96 DPI) is suitable for screen viewing. If you plan to print the map, increase the DPI to 300 or higher for better quality.</li>
+</ul></li>
+<li>Click <strong>Export.</strong></li>
+</ol>
+<p>Your map is now saved as a JPEG in your Week02 folder - this is a finished product you can email, print, or include in a report.</p>
+<p><strong>Verification Step:</strong> After exporting, navigate to your Week02 folder in File Explorer to confirm the JPEG file was created. Open it to verify the map, legend, and all elements are visible and properly positioned.</p>
+<p><strong>SAVE YOUR PROJECT.</strong></p>
+</section>
+<section id="reflective-prompt-important-for-learning" class="level4">
+<h4 class="anchored" data-anchor-id="reflective-prompt-important-for-learning">6.2 Reflective prompt (important for learning)</h4>
+<p>Before you upload your map layout, take a few minutes to reflect on the workflow you just completed.</p>
+<p><strong>Reflective Question:</strong></p>
+<blockquote class="blockquote">
+<p>In this lab, I provide both text and video instructions guiding you through common workflows for 1) creating a new project workspace (creating project folder and copying and extracting project data to that folder using File Explorer), 2) controlling the order in which geospatial data layerss are shown on the map, 3) purposefully symbolizing your geospatial data, and 4) generating a map layout. Provide a 2-3 sentence summary of each step mentioned above. Focus on the task (creating a new project workspace, reordering the display order, symbolizing data layers, creating a map layout), not on the exact button names or menues you click. I recommend also referencing the video and timestamp for parts of a video that you find particularly helpful. While you do not need to submit these to eLC, I expect that they will be useful the next time I ask you to create a map layout or you need to symbolize a data layer in a certain manner.</p>
+</blockquote>
+<hr>
+</section>
+</section>
+</section>
+<section id="key-gis-workflows-practiced-this-week" class="level2">
+<h2 class="anchored" data-anchor-id="key-gis-workflows-practiced-this-week">5. KEY GIS WORKFLOWS PRACTICED THIS WEEK</h2>
+<p>This week you practiced the complete map-making workflow, which you will repeat (and extend) all semester:</p>
+<ol type="1">
+<li><strong>Organize</strong> your workspace (folders, naming conventions).</li>
+<li><strong>Load</strong> spatial data into ArcGIS Pro (multiple methods).</li>
+<li><strong>Manage</strong> layers (drawing order, visibility).</li>
+<li><strong>Symbolize</strong> based on attributes and purpose (single vs.&nbsp;unique values).</li>
+<li><strong>Design</strong> a layout with all required map elements.</li>
+<li><strong>Export</strong> a finished product.</li>
+</ol>
+<hr>
+</section>
+<section id="final-deliverables-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="final-deliverables-checklist">6. FINAL DELIVERABLES CHECKLIST</h2>
+<p>Upload the following <strong>three items</strong> to the <em>Week 02 Lab</em> folder on eLC:</p>
+<section id="required-uploads" class="level3">
+<h3 class="anchored" data-anchor-id="required-uploads">6.1 Required uploads</h3>
+<ul class="task-list">
+<li><label><input type="checkbox"><strong>ESRI Training Certificate - due Wednesday at 8:40 AM</strong></label>
+<ul>
+<li><em>Introduction to Spatial Data</em> completion certificate (50% of grade)</li>
+<li>Format: PDF or screenshot as provided by ESRI</li>
+</ul></li>
+<li><label><input type="checkbox"><strong>Lab Map JPEG - due Sunday at 11:59 PM</strong></label>
+<ul>
+<li>File name: <code>Week2Lab_YOURLASTNAME.jpg</code> (e.g., <code>Week2Lab_Lowe.jpg</code>)</li>
+<li>Shows BF Grant Forest stands symbolized by CoverType with all required map elements (40% of grade)</li>
+</ul></li>
+<li><label><input type="checkbox"><strong>Creating a Map Layout Screenshot - due Sunday at 11:59 PM</strong></label>
+<ul>
+<li>Screenshot from the <em>Creating a Map Layout</em> ESRI Training module (10% of grade)</li>
+</ul></li>
+</ul>
+</section>
+<section id="what-not-to-submit" class="level3">
+<h3 class="anchored" data-anchor-id="what-not-to-submit">6.2 What NOT to submit</h3>
+<ul>
+<li>Do not submit your ArcGIS Pro project file (<code>.aprx</code>).</li>
+<li>Do not submit the original shapefiles.</li>
+<li>Only submit the JPEG, certificate, and screenshot as listed above.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="appendix-reference-map" class="level2">
+<h2 class="anchored" data-anchor-id="appendix-reference-map">APPENDIX: REFERENCE MAP</h2>
+<p>See the <code>Week02_MapLayoutTemplate</code> linked in this week’s eLC lab section for an example of how I want you to design your map layout. Use this as a design guide, but understand that your map does not need to match it pixel-for-pixel. As long as you:</p>
+<ul>
+<li>Symbolize stands by <strong>CoverType</strong> (with appropriate colors),</li>
+<li>Include all required map elements (legend, scale, title, north arrow, neatlines, metadata) - I recommend using my template design, and</li>
+<li>Create a clear, readable layout,</li>
+</ul>
+<p>your map will meet the objectives.</p>
+<hr>
+<p><strong>Questions? Contact your instructor or TA during office hours or via eLC.</strong></p>
+<p><strong>Last updated: August 2026</strong></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/tripplowe\.github\.io\/spatial_fall2026\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
