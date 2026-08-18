@@ -1,7 +1,20 @@
 ---
-title: "lectures"
+title: "FANR 3800 Lectures"
+listing:
+  id: lecture-listing
+  contents: "Week*_Lecture.md"
+  type: table
+  sort: "filename"
+  fields: [title, subtitle]
+  field-display-names:
+    title: "Lecture"
+    subtitle: "Topic"
+  sort-ui: false
+  filter-ui: true
 ---
 
-This is a Quarto website.
+Welcome to FANR 3800. Select a lecture to open it — each page includes PDF and
+Word download links in the margin.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+::: {#lecture-listing}
+:::

@@ -9,10 +9,6 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: Week01_Lecture.md
-        text: "Lecture 1"
-      - href: Week02_Lecture.md
-        text: "Lecture 2"
 
 # Declaring three formats at the project level means every page is rendered
 # to HTML (the website), PDF, and Word. Quarto adds "Other Formats" download
@@ -27,9 +23,3 @@ format:
   docx:
     toc: true
     number-sections: true
-
-# Only needed if a lecture runs embedded R/Python code and you want CI to
-# reuse locally-cached results instead of re-executing. Leave commented for
-# plain-markdown lectures.
-# execute:
-#   freeze: auto
