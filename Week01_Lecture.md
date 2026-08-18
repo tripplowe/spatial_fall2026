@@ -15,11 +15,11 @@ date: "Fall 2026 · Aug 17–21"
 
 ## Monday: What GIS Is, and Why Your Problems Are Spatial
 
-**Learning objectives.** Students can (1) state what GIS is as an analytical framework rather than a program, (2) give an example from their own discipline where a management question is really a spatial question, and (3) log into the ESRI Training environment and begin assigned training modules.
+**Learning objectives.** Students (1) understand that GIS is as an analytical framework rather than a program, (2) give an example from their own discipline where a management question is really a spatial question, and (3) verify that they can log into the ESRI Training environment and begin assigned training modules.
 
 **Session outline (~50 min).**
 
-- *(0–10) **Where is the where?*** "Which stands should we thin?" (silviculture), "Where is the deer herd concentrating?" (wildlife), "Which reaches need streamside protection?" (fisheries), "Where are trails eroding?" (parks).
+- *(0–10) Where is the where?* "Which stands should we thin?" (silviculture), "Where is the deer herd concentrating?" (wildlife), "Which reaches need streamside protection?" (fisheries), "Where are trails eroding?" (parks).
 - *(10–25) What GIS actually is.* Data + software + hardware + methods + people for asking and answering spatial questions. "Spatial thinking" is the *analytical framework* and ArcGIS Pro is the *software* in which we apply those spatial thoughts.
 - *(25–40) Five FANR3800 arcs (topics)* build a trustworthy base (A) → ask questions of data (B) → decide where things go, vector (C) → model conditions that vary, raster (D) → combine everything (E).
 - *(40–50) Logistics.* Syllabus highlights, the lecture/lab rhythm, the weekly ESRI-module expectation, and how notes/handwritten work fit in. Assign the Week 2 ESRI module and the account setup.
@@ -32,13 +32,13 @@ date: "Fall 2026 · Aug 17–21"
 
 ## Wednesday: How We Represent the World: The Two Data Models
 
-**Learning objectives.** Students can (1) distinguish discrete features from continuous phenomena, (2) name the vector geometry types and the raster grid concept, and (3) predict which model fits a given natural resource dataset.
+**Learning objectives.** Students can (1) distinguish discrete features from continuous phenomena, (2) describe the vector geometry types and the raster grid concept, and (3) predict which model fits a given natural resource dataset.
 
 **Session outline (~50 min).**
 
 - *(0–5) Setup check.* Confirm ESRI accounts and ArcGIS Pro access; note who needs the GIS lab.
 - *(5–25) The *Vector Data Model*.* Points, lines, polygons, each carrying an attribute table (one row per feature). Natural resource examples: sample plots and nests (points); streams, roads, boundaries (lines); stands, compartments, watersheds (polygons). Strengths (discrete features, attribute richness, precise edges) and limits (poor for gradients).
-- *(25–40) The *Raster Data Model*.* A regular grid of cells, one value each; cell size implies spatial resolution; integer (categories) vs. floating-point (continuous) vs. multiband (imagery). Examples: elevation, temperature, land cover, satellite bands. Strengths (continuous phenomena, fast math across large areas) and limits (imprecise boundaries, one value per cell).
+- *(25–40) The *Raster Data Model*.* A regular grid of cells, one value each; cell size implies spatial resolution; integer (categories) vs. floating-point (continuous) vs. multi-band (imagery). Examples: elevation, temperature, land cover, satellite bands. Strengths (continuous phenomena, fast math across large areas) and limits (imprecise boundaries, one value per cell).
 - *(40–50) Choosing a model.* Discrete-with-hard-edges → vector; gradient or many-factor surface → raster; most real problems → both.
 
 **Framing to emphasize.** The model you choose is a modeling *decision* with consequences, not a technical default.

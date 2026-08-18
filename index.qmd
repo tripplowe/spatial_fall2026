@@ -2,7 +2,7 @@
 title: "FANR 3800 Lectures"
 listing:
   id: lecture-listing
-  contents: "Week*_Lecture.md"
+  contents: "Week*_*.md"
   type: table
   sort: "filename"
   fields: [title, subtitle]

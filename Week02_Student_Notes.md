@@ -22,7 +22,7 @@ Weekly schedule, ESRI Training, deliverables, and due dates.
 
 ## 2 · Lab Review: Last Week's Setup *(10 min)*
 
-What did getting ArcGIS Pro set up show me about the project and interface? Anything still not working?
+Anything still not working with your ESRI Training or ArcGIS Pro logins?
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -32,7 +32,7 @@ Why does having professional GIS software matter for someone in my discipline?
 
 ## 3 · The Week Ahead *(5 min)*
 
-New ideas this week: *Symbology* (how we show features) and *Map Layout* (what makes a map credible).
+New ideas this week: *Symbology* (how we show features) and *Map Layout*.
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -67,7 +67,7 @@ Read the prompt for **your** focus and jot a response; be ready to share.
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-- Choosing well: color for categories vs. sequences; how many classes; why raw counts can mislead (normalize instead).
+- Choosing well: color for categories vs. sequences; how many classes.
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -97,7 +97,7 @@ Read the prompt for **your** focus and jot a response; be ready to share.
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-- Credibility and honesty: how framing, extent, and class breaks can distort; cite sources; show uncertainty.
+- how framing, extent, and class breaks can distort; cite sources; show uncertainty.
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
